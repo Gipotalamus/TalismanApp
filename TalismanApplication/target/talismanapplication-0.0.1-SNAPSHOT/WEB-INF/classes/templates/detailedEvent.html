@@ -1,0 +1,45 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+    <div th:include="fragments/import :: bootstrap"></div>
+    <meta charset="UTF-8"/>
+    <title>Detailed Event</title>
+</head>
+<body background="/images/img_background.jpg">
+<div th:include="fragments/header :: header">Default header</div>
+<div class="container" style="max-width: 40%; background-color: lightsteelblue">
+    <div>
+        <div align="center">
+            <span style="font-size: medium; font-weight: bold;" th:text="${event.title}"></span>
+        </div>
+        <div style="font-size: 16px; display: inline-block; width: 100%">
+            <div th:text="${event.text}">
+                Event text goes here
+            </div>
+            <div style="margin-top: 10px">
+                <div style="float: left" th:text="${event.date}"></div>
+            </div>
+        </div>
+    </div>
+    <hr align="al"/>
+    <div style="margin-left: 50px">
+        <div th:each="comment:${event.comments}">
+            <div style="font-size: 14px; font-style: italic" th:text="${comment.text}">Text</div>
+            <div style="font-size: 12px">
+                <div style="float: left" th:text="${'Commented by: ' + comment.user.name}">Name</div>
+                <div style="float: right; margin-left: 10px" sec:authorize="hasRole('ROLE_ADMIN')">
+                    <a href="start.html" th:title="#{event.remove}" th:href="@{/comments/remove/} + ${comment.id}">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </a>
+                </div>
+                <div style="float: right" th:text="${comment.date}">Date</div>
+
+            </div>
+            <hr align="al"/>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

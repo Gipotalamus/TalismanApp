@@ -1,0 +1,24 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:include="fragments/import :: bootstrap"></div>
+    <meta charset="UTF-8"/>
+    <title>Add comment</title>
+</head>
+<body>
+<div th:include="fragments/header :: header">Default header</div>
+<div class="container" style="max-width: 40%; background-color: seashell">
+    <form th:object="${comment}" th:action="@{/comments/addComment}" method="post" enctype="multipart/form-data">
+        <input type="hidden" th:field="*{event}"/>
+        <div class="form-group">
+            <label for="comment" th:text="#{comment.text}">Text:</label>
+            <textarea class="form-control" rows="5" cols="80" th:field="*{text}" id="comment"></textarea>
+            <p style="color: red" th:if="${#fields.hasErrors('text')}" th:errors="*{text}">Empty text</p>
+        </div>
+        <input type="submit" th:value="#{button.submit}" value="Submit"/>
+    </form>
+</div>
+
+</body>
+</html>

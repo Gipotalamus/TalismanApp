@@ -1,0 +1,42 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+    <div th:include="fragments/import :: bootstrap"></div>
+    <meta charset="UTF-8"/>
+    <title>Start Page</title>
+</head>
+<body th:background="@{/images/img_background.jpg}">
+<!--Menu-->
+<div th:include="fragments/header :: header">Default header</div>
+<div class="container" style="max-width: 40%; background-color: lightsteelblue">
+
+
+    <div style="float: left; margin: 15px 15px 10px 0;">
+        <img class="img-thumbnail" style="max-width: 200px; height: auto" src="some_photo.jpg"
+             th:src="${member.photo}"/>
+    </div>
+    <h3 style="display: inline-block" align="center" th:text="${member.name}">Member name</h3>
+    <div style="margin:10px 5px 10px 5px; float: right" sec:authorize="hasRole('ROLE_ADMIN')">
+        <a href="start.html" th:title="#{event.edit}" th:href="@{/members/edit/} + ${member.id}">
+            <span class="glyphicon glyphicon-edit"></span>
+        </a>
+        <a href="start.html" th:title="#{event.remove}" th:href="@{/members/remove/} + ${member.id}">
+            <span class="glyphicon glyphicon-remove"></span>
+        </a>
+    </div>
+    <div>
+        <p style="font-size:16px; font-family:sans-serif; text-align: justify; text-indent: 30px" th:text="${member.story}">Story goes here</p>
+    </div>
+    <div align="right">
+        <span th:text="#{member.phone}"></span>
+        <span th:text="${member.phone}">Member phone</span>
+    </div>
+
+
+</div>
+
+
+
+</body>
+</html>
