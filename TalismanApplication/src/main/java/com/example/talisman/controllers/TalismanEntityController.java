@@ -24,6 +24,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Stream;
 
 /**
  * Created by мир on 15.03.2016.
@@ -54,9 +57,10 @@ public class TalismanEntityController {
         int currentPage = pageable.getPageNumber();
         Sort sortCriteria = (Sort)session.getAttribute("sort");
         pageable = new PageRequest(currentPage, entitiesPerPageCount, sortCriteria);
-        Page page = talismanEventService.getPaginatedEvents(pageable);
+        Page<TalismanEventEntity> page = talismanEventService.getPaginatedEvents(pageable);
         model.addAttribute("currentPage", pageable.getPageNumber());
         model.addAttribute("pagesCount", page.getTotalPages()==0?1:page.getTotalPages());
+        page.forEach(talismanEventEntity -> System.out.println(talismanEventEntity.getDate()));
         model.addAttribute("events", page);
         return "start";
     }

@@ -14,15 +14,12 @@ public class TalismanMemberEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
-    @NotEmpty(message = "User name can't be empty")
     private String name;
 
-    @Pattern(regexp="\\d{11}", message = "This field can contain only 7 digit characters")
     private String phone;
 
     @Lob
     @Column(length = 1000)
-    @NotEmpty(message = "Input few words about member")
     private String story;
 
     private String photo;

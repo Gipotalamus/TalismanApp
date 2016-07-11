@@ -6,7 +6,7 @@
     <meta charset="UTF-8"/>
     <title>Start Page</title>
 </head>
-<body th:background="@{/images/img_background.jpg}">
+<body th:background="@{/images/} + #{body.background}">
 <!--Menu-->
 <div th:include="fragments/header :: header">Default header</div>
 
@@ -49,7 +49,7 @@
                 Event text goes here
             </div>
             <div style="margin-top: 10px">
-                <div style="float: left" th:text="${event.date}"></div>
+                <div style="float: left" th:text="${#dates.format(event.date, 'yyyy-MM-dd  hh:mm:ss')}"></div>
                 <div style="float: right; margin-left: 10px">
                     <span class="glyphicon glyphicon-eye-open" th:title="#{event.views}"></span>
                     <span th:text="${event.views}"></span>

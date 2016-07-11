@@ -25,13 +25,13 @@ public class UserValidator implements Validator {
     public void validate(Object o, Errors errors) {
         TalismanUser incomingUser = (TalismanUser)o;
         TalismanUser user = userDetailsService.findOneByName(incomingUser.getName());
-        if (incomingUser.getName().equals("")) {
+        if (incomingUser.getName().trim().equals("")) {
             errors.rejectValue("name", "validation.user.name");
         }
         if (user!=null) {
             errors.rejectValue("name", "validation.user.exists");
         }
-        if (incomingUser.getPassword().length()<6) {
+        if (incomingUser.getPassword().trim().length()<6) {
             errors.rejectValue("password", "validation.user.password");
         }
 

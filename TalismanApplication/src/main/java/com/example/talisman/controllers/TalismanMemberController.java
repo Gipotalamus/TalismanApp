@@ -3,6 +3,7 @@ package com.example.talisman.controllers;
 
 import com.example.talisman.entities.TalismanMemberEntity;
 import com.example.talisman.services.TalismanMemberService;
+import com.example.talisman.validators.MemberValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -11,6 +12,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import java.io.File;
@@ -25,6 +27,9 @@ import java.io.IOException;
 public class TalismanMemberController {
 
     @Autowired
+    MemberValidator validator;
+
+    @Autowired
     TalismanMemberService talismanMemberService;
 
     @RequestMapping("/")
@@ -34,7 +39,7 @@ public class TalismanMemberController {
     }
 
     @RequestMapping("/{memberId}")
-    public String getMember (@PathVariable("memberId") int memberId, Model model){
+    public String getMember(@PathVariable("memberId") int memberId, Model model) {
         TalismanMemberEntity member = talismanMemberService.getMember(memberId);
         model.addAttribute("member", member);
         return "member";
@@ -43,27 +48,26 @@ public class TalismanMemberController {
     @RequestMapping(value = "/addMember", method = RequestMethod.GET)
     public String addMember(Model model) {
         model.addAttribute("talismanMemberEntity", new TalismanMemberEntity());
-    return "talismanMember";
+        return "talismanMember";
     }
 
     @RequestMapping(value = "/addMember", method = RequestMethod.POST)
     public String addMember(@RequestParam(name = "file", required = false) MultipartFile file,
-                            @Valid TalismanMemberEntity talismanMemberEntity, BindingResult result, HttpServletRequest request) {
+                            TalismanMemberEntity talismanMemberEntity, BindingResult result, HttpServletRequest request) {
+        String[] s = file.getOriginalFilename().split("\\.");
+        String photo = "/uploaded/" + (talismanMemberService.getMaxId() + 1) + "." + s[s.length - 1];
+        talismanMemberEntity.setPhoto(photo);
+        validator.validate(talismanMemberEntity, result);
         if (!result.hasErrors()) {
-            String[] s = file.getOriginalFilename().split("\\.");
-            String photo = "/uploaded/" + (talismanMemberService.getMaxId() + 1) + "." + s[s.length -1];
             String filePath = "/home/gipotalamus/Idea/" + photo;
             try {
                 file.transferTo(new File(filePath));
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            talismanMemberEntity.setPhoto(photo);
             talismanMemberService.addMember(talismanMemberEntity);
-
             return "redirect:/";
-        }
-        else return "talismanMember";
+        } else return "talismanMember";
 
     }
 
