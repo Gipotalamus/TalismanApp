@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe1dbb5-4855-4407-8210-2ef123b81c2a" name="Default" comment="">
-<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-=======
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanPhotoController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/talisman/entities/TalismanEventEntity.class" afterPath="$PROJECT_DIR$/target/classes/com/example/talisman/entities/TalismanEventEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/entities/TalismanEventEntity.class" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/entities/TalismanEventEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanEventEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanEventEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/messages_en.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/messages_ua.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages_ua.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/messages.properties" afterPath="$PROJECT_DIR$/target/classes/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/messages_en.properties" afterPath="$PROJECT_DIR$/target/classes/messages_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/messages_ua.properties" afterPath="$PROJECT_DIR$/target/classes/messages_ua.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/messages.properties" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/messages_en.properties" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/messages_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/messages_ua.properties" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/messages_ua.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/fragments/header.html" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/fragments/header.html" />
->>>>>>> images_feature
     </list>
     <ignored path="TalismanApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -141,44 +116,27 @@
       <file leaf-file-name="photos.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/photos.html">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="522">
-              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-              <folding />
-=======
             <state relative-caret-position="324">
               <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
->>>>>>> images_feature
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="UserValidator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/validators/UserValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-=======
       <file leaf-file-name="test.talisman_photo_entity" pinned="false" current-in-tab="false">
         <entry file="dbDummy://dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.talisman_photo_entity">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
->>>>>>> images_feature
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -186,13 +144,8 @@
       <file leaf-file-name="start.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/start.html">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="900">
-              <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-=======
-            <state relative-caret-position="305">
+            <state relative-caret-position="558">
               <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
->>>>>>> images_feature
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -214,7 +167,7 @@
       <file leaf-file-name="TalismanPhotoController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanPhotoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="324">
               <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -226,13 +179,8 @@
       <file leaf-file-name="member.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/member.html">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="198">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-=======
-            <state relative-caret-position="216">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="486">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -240,7 +188,6 @@
                 <marker date="1468441550868" expanded="true" signature="1179:1191" placeholder="remove" />
                 <marker date="1468441550868" expanded="true" signature="1539:1551" placeholder="Phone" />
               </folding>
->>>>>>> images_feature
             </state>
           </provider>
         </entry>
@@ -368,12 +315,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-=======
       <pane id="Scratches" />
->>>>>>> images_feature
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -728,12 +670,8 @@
           </PATH>
         </subPane>
       </pane>
-<<<<<<< HEAD
-      <pane id="Scratches" />
-=======
       <pane id="PackagesPane" />
       <pane id="Scope" />
->>>>>>> images_feature
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1336,39 +1274,29 @@
       <workItem from="1468166679361" duration="8802000" />
       <workItem from="1468248273833" duration="474000" />
       <workItem from="1468251037672" duration="8354000" />
-<<<<<<< HEAD
-      <workItem from="1468511232975" duration="1738000" />
-      <workItem from="1468527060003" duration="61000" />
-=======
       <workItem from="1468511232975" duration="6992000" />
       <workItem from="1468519829561" duration="2165000" />
->>>>>>> images_feature
+      <workItem from="1468530279615" duration="50000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="345817000" />
-=======
-    <option name="totallyTimeSpent" value="353175000" />
->>>>>>> images_feature
+    <option name="totallyTimeSpent" value="353225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5018868" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18274933" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.49811321" order="9" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-=======
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24720244" sideWeight="0.49056605" order="2" side_tool="false" content_ui="tabs" />
->>>>>>> images_feature
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24720244" sideWeight="0.49056605" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1377,19 +1305,17 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21078168" sideWeight="0.49643946" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13261455" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13261455" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2690027" sideWeight="0.50356054" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39877924" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39877924" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24720244" sideWeight="0.49056605" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1462,18 +1388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
           <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1499,14 +1413,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.comment">
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1550,10 +1464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-<<<<<<< HEAD
-          <folding />
-=======
->>>>>>> images_feature
         </state>
       </provider>
     </entry>
@@ -1571,10 +1481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-<<<<<<< HEAD
-          <folding />
-=======
->>>>>>> images_feature
         </state>
       </provider>
     </entry>
@@ -1582,19 +1488,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
           <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.talisman_event_entity">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1606,13 +1511,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/img_background.jpg">
@@ -1638,10 +1544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
           <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding>
-            <element signature="e#4459#4460#0" expanded="false" />
-            <element signature="e#4489#4490#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1656,8 +1558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-<<<<<<< HEAD
-=======
         </state>
       </provider>
     </entry>
@@ -1665,10 +1565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
->>>>>>> images_feature
         </state>
       </provider>
     </entry>
@@ -1688,16 +1584,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/repositories/TalismanPhotoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="936">
-          <caret line="67" column="66" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
-=======
         <state relative-caret-position="162">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
->>>>>>> images_feature
         </state>
       </provider>
     </entry>
@@ -1712,77 +1600,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#505#506#0" expanded="false" />
-            <element signature="e#548#549#0" expanded="false" />
-            <element signature="e#764#765#0" expanded="false" />
-            <element signature="e#812#813#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="720">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-=======
         <state relative-caret-position="18">
           <caret line="1" column="3" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="18" />
           <folding />
->>>>>>> images_feature
         </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages_ua.properties">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="720">
-          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-=======
         <state relative-caret-position="18">
           <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
           <folding />
->>>>>>> images_feature
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/favicon.ico" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="270">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-=======
         <state relative-caret-position="162">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
->>>>>>> images_feature
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.talisman_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanMemberController.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="270">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-=======
         <state relative-caret-position="242">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
         </state>
@@ -1792,11 +1654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="95" column="50" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="50" />
-          <folding>
-            <element signature="e#1949#1950#0" expanded="true" />
-            <element signature="e#2012#2013#0" expanded="true" />
-            <element signature="e#2048#2049#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1804,11 +1661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="737">
           <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
->>>>>>> images_feature
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1816,36 +1668,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-          <folding>
-            <marker date="1468519657048" expanded="true" signature="451:461" placeholder="Talisman band" />
-            <marker date="1468519657048" expanded="true" signature="631:641" placeholder="Stuff" />
-            <marker date="1468519657048" expanded="true" signature="723:733" placeholder="About" />
-            <marker date="1468519657048" expanded="true" signature="831:842" placeholder="Photos" />
-            <marker date="1468519657048" expanded="true" signature="928:941" placeholder="Contacts" />
-            <marker date="1468519657048" expanded="true" signature="1273:1284" placeholder="logged as:" />
-            <marker date="1468519657048" expanded="true" signature="2008:2020" placeholder="Sign up" />
-            <marker date="1468519657048" expanded="true" signature="2300:2311" placeholder="logout" />
-            <marker date="1468519657048" expanded="true" signature="2541:2551" placeholder="login" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.talisman_member_entity">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanPhotoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="324">
           <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1854,27 +1694,22 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.talisman_photo_entity">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/start.html">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="900">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-=======
-        <state relative-caret-position="305">
+        <state relative-caret-position="558">
           <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
->>>>>>> images_feature
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1905,8 +1740,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/member.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="486">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
