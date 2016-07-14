@@ -2,25 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe1dbb5-4855-4407-8210-2ef123b81c2a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/wed2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/validators/MemberValidator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/talisman/controllers/TalismanEntityController.class" afterPath="$PROJECT_DIR$/target/classes/com/example/talisman/controllers/TalismanEntityController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/controllers/TalismanEntityController.class" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/controllers/TalismanEntityController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/talisman/validators/MemberValidator.class" afterPath="$PROJECT_DIR$/target/classes/com/example/talisman/validators/MemberValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/talisman/validators/UserValidator.class" afterPath="$PROJECT_DIR$/target/classes/com/example/talisman/validators/UserValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/images/404.png" afterPath="$PROJECT_DIR$/target/classes/static/images/404.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/images/GreatBritain-icon.png" afterPath="$PROJECT_DIR$/target/classes/static/images/GreatBritain-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/images/Ukraine-icon.png" afterPath="$PROJECT_DIR$/target/classes/static/images/Ukraine-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/images/facebook.png" afterPath="$PROJECT_DIR$/target/classes/static/images/facebook.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/images/img_background.jpg" afterPath="$PROJECT_DIR$/target/classes/static/images/img_background.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/images/img_header.jpg" afterPath="$PROJECT_DIR$/target/classes/static/images/img_header.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/images/img_wedding.jpg" afterPath="$PROJECT_DIR$/target/classes/static/images/img_wedding.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/validators/MemberValidator.class" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/validators/MemberValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/validators/UserValidator.class" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/validators/UserValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/404.png" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/404.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/GreatBritain-icon.png" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/GreatBritain-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/Ukraine-icon.png" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/Ukraine-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/facebook.png" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/facebook.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/img_background.jpg" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/img_background.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/img_header.jpg" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/img_header.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/img_wedding.jpg" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/img_wedding.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanEntityController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanEntityController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanMemberController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanMemberController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanMemberEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanMemberEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/validators/UserValidator.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/validators/UserValidator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/messages_en.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/messages_ua.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages_ua.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/start.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/start.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/messages.properties" afterPath="$PROJECT_DIR$/target/classes/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/messages_en.properties" afterPath="$PROJECT_DIR$/target/classes/messages_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/messages_ua.properties" afterPath="$PROJECT_DIR$/target/classes/messages_ua.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/start.html" afterPath="$PROJECT_DIR$/target/classes/templates/start.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/messages.properties" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/start.html" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/start.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/errorPages/404.html" afterPath="$PROJECT_DIR$/target/classes/static/errorPages/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/fragments/import.html" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/import.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/errorPages/404.html" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/errorPages/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/fragments/header.html" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/fragments/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/fragments/import.html" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/fragments/import.html" />
     </list>
     <ignored path="TalismanApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -129,11 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserValidator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserValidator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/validators/UserValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,84 +151,31 @@
       <file leaf-file-name="start.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/start.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="51" column="91" selection-start-line="51" selection-start-column="91" selection-end-line="51" selection-end-column="91" />
+            <state relative-caret-position="413">
+              <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
               <folding>
-                <marker date="1468255954775" expanded="true" signature="780:791" placeholder="order by title" />
-                <marker date="1468255954775" expanded="true" signature="902:912" placeholder="order by date" />
-                <marker date="1468255954775" expanded="true" signature="1521:1534" placeholder="comment" />
-                <marker date="1468255954775" expanded="true" signature="1763:1773" placeholder="edit" />
-                <marker date="1468255954775" expanded="true" signature="2001:2013" placeholder="remove" />
-                <marker date="1468255954775" expanded="true" signature="2676:2687" placeholder="views" />
-                <marker date="1468255954775" expanded="true" signature="2897:2911" placeholder="comments" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1468441550868" expanded="true" signature="780:791" placeholder="order by title" />
+                <marker date="1468441550868" expanded="true" signature="902:912" placeholder="order by date" />
+                <marker date="1468441550868" expanded="true" signature="1521:1534" placeholder="comment" />
+                <marker date="1468441550868" expanded="true" signature="1763:1773" placeholder="edit" />
+                <marker date="1468441550868" expanded="true" signature="2001:2013" placeholder="remove" />
+                <marker date="1468441550868" expanded="true" signature="2676:2687" placeholder="views" />
+                <marker date="1468441550868" expanded="true" signature="2897:2911" placeholder="comments" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TalismanMemberEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanMemberEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemberValidator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/validators/MemberValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TalismanMemberController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanMemberController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="67" column="66" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messages_en.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messages_ua.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/messages_ua.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="701">
-              <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TalismanEntityController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TalismanEntityController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanEntityController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="773">
+              <caret line="115" column="23" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="23" />
+              <folding>
+                <element signature="e#4459#4460#0" expanded="true" />
+                <element signature="e#4489#4490#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -231,7 +185,23 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#539#540#0" expanded="false" />
+                <element signature="e#566#567#0" expanded="false" />
+                <element signature="e#606#607#0" expanded="false" />
+                <element signature="e#638#639#0" expanded="false" />
+                <element signature="e#673#674#0" expanded="false" />
+                <element signature="e#704#705#0" expanded="false" />
+                <element signature="e#752#753#0" expanded="false" />
+                <element signature="e#792#793#0" expanded="false" />
+                <element signature="e#823#824#0" expanded="false" />
+                <element signature="e#861#862#0" expanded="false" />
+                <element signature="e#1165#1166#0" expanded="false" />
+                <element signature="e#1196#1197#0" expanded="false" />
+                <element signature="e#1251#1252#0" expanded="false" />
+                <element signature="e#1291#1292#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -300,7 +270,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/messages.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanEntityController.java" />
         <option value="dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.talisman_event_entity" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanEventEntity.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/start.html" />
@@ -310,6 +279,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/messages_ua.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/validators/MemberValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/validators/UserValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanEntityController.java" />
       </list>
     </option>
   </component>
@@ -360,7 +330,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -424,53 +393,9 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TalismanApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TalismanApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TalismanApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TalismanApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resource Bundle 'messages'" />
-              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -517,217 +442,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fragments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TalismanApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TalismanApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TalismanApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TalismanApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TalismanApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TalismanApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="talisman" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TalismanApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TalismanApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="talisman" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="validators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TalismanApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TalismanApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="talisman" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TalismanApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TalismanApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="talisman" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repositories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TalismanApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TalismanApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="talisman" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -763,6 +482,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -1366,15 +1086,16 @@
       <workItem from="1468166679361" duration="8802000" />
       <workItem from="1468248273833" duration="474000" />
       <workItem from="1468251037672" duration="8354000" />
+      <workItem from="1468511232975" duration="1738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="344018000" />
+    <option name="totallyTimeSpent" value="345756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1385,7 +1106,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5018868" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18274933" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.49811321" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24720244" sideWeight="0.49056605" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24720244" sideWeight="0.49056605" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1432,14 +1153,14 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="dbDummy://dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.talisman_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1498,14 +1219,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.UserConnection">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -1576,19 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
           <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1467560306074" expanded="true" signature="1544:1556" placeholder="remove" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1617,12 +1325,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1467223562975" expanded="true" signature="711:723" placeholder="Comment text:" />
-            <marker date="1467223562975" expanded="true" signature="718:719" placeholder="Story" />
-            <marker date="1467223562975" expanded="true" signature="1008:1021" placeholder="Submit" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1630,28 +1332,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h3#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1467558478248" expanded="true" signature="1009:1019" placeholder="edit" />
-            <marker date="1467558478248" expanded="true" signature="1179:1191" placeholder="remove" />
-            <marker date="1467558478248" expanded="true" signature="1539:1551" placeholder="Phone" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.comment">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1674,12 +1366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <marker date="1467736765096" expanded="true" signature="579:594" placeholder="Login:" />
-            <marker date="1467736765096" expanded="true" signature="895:914" placeholder="Password:" />
-            <marker date="1467736765096" expanded="true" signature="1326:1345" placeholder="Remember me" />
-            <marker date="1467736765096" expanded="true" signature="1560:1573" placeholder="Submit" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1687,25 +1373,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="106" selection-start-line="25" selection-start-column="106" selection-end-line="25" selection-end-column="106" />
-          <folding>
-            <marker date="1467401933859" expanded="true" signature="723:734" placeholder="Name" />
-            <marker date="1467401933859" expanded="true" signature="1035:1047" placeholder="Phone" />
-            <marker date="1467401933859" expanded="true" signature="1354:1366" placeholder="Story" />
-            <marker date="1467401933859" expanded="true" signature="1691:1703" placeholder="Photo" />
-            <marker date="1467401933859" expanded="true" signature="1965:1978" placeholder="Submit" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.talisman_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1713,13 +1392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1468176538278" expanded="true" signature="728:742" placeholder="user name:" />
-            <marker date="1468176538278" expanded="true" signature="1017:1031" placeholder="user password:" />
-            <marker date="1468176538278" expanded="true" signature="1297:1310" placeholder="Submit" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1747,7 +1419,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#539#540#0" expanded="false" />
+            <element signature="e#566#567#0" expanded="false" />
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#638#639#0" expanded="false" />
+            <element signature="e#673#674#0" expanded="false" />
+            <element signature="e#704#705#0" expanded="false" />
+            <element signature="e#752#753#0" expanded="false" />
+            <element signature="e#792#793#0" expanded="false" />
+            <element signature="e#823#824#0" expanded="false" />
+            <element signature="e#861#862#0" expanded="false" />
+            <element signature="e#1165#1166#0" expanded="false" />
+            <element signature="e#1196#1197#0" expanded="false" />
+            <element signature="e#1251#1252#0" expanded="false" />
+            <element signature="e#1291#1292#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1755,20 +1443,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
           <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.talisman_event_entity">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1776,15 +1462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanEntityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1792,22 +1469,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#td#2;n#tr#1;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1467567893660" expanded="true" signature="1308:1318" placeholder="Add member" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/img_background.jpg">
@@ -1815,32 +1488,15 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/start.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="51" column="91" selection-start-line="51" selection-start-column="91" selection-end-line="51" selection-end-column="91" />
-          <folding>
-            <marker date="1468255954775" expanded="true" signature="780:791" placeholder="order by title" />
-            <marker date="1468255954775" expanded="true" signature="902:912" placeholder="order by date" />
-            <marker date="1468255954775" expanded="true" signature="1521:1534" placeholder="comment" />
-            <marker date="1468255954775" expanded="true" signature="1763:1773" placeholder="edit" />
-            <marker date="1468255954775" expanded="true" signature="2001:2013" placeholder="remove" />
-            <marker date="1468255954775" expanded="true" signature="2676:2687" placeholder="views" />
-            <marker date="1468255954775" expanded="true" signature="2897:2911" placeholder="comments" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.talisman_member_entity">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1848,32 +1504,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#500#501#0" expanded="false" />
+            <element signature="e#525#526#0" expanded="false" />
+            <element signature="e#558#559#0" expanded="false" />
+            <element signature="e#586#587#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#644#645#0" expanded="false" />
+            <element signature="e#684#685#0" expanded="false" />
+            <element signature="e#716#717#0" expanded="false" />
+            <element signature="e#748#749#0" expanded="false" />
+            <element signature="e#776#777#0" expanded="false" />
+            <element signature="e#818#819#0" expanded="false" />
+            <element signature="e#852#853#0" expanded="false" />
+            <element signature="e#884#885#0" expanded="false" />
+            <element signature="e#912#913#0" expanded="false" />
+            <element signature="e#954#955#0" expanded="false" />
+            <element signature="e#988#989#0" expanded="false" />
+            <element signature="e#1020#1021#0" expanded="false" />
+            <element signature="e#1048#1049#0" expanded="false" />
+            <element signature="e#1090#1091#0" expanded="false" />
+            <element signature="e#1124#1125#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanMemberController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="936">
           <caret line="67" column="66" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="720">
           <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages_ua.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
+        <state relative-caret-position="720">
           <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
           <folding />
         </state>
@@ -1881,22 +1561,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/validators/MemberValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
+        <state relative-caret-position="270">
           <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/validators/UserValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1468441550868" expanded="true" signature="780:791" placeholder="order by title" />
+            <marker date="1468441550868" expanded="true" signature="902:912" placeholder="order by date" />
+            <marker date="1468441550868" expanded="true" signature="1521:1534" placeholder="comment" />
+            <marker date="1468441550868" expanded="true" signature="1763:1773" placeholder="edit" />
+            <marker date="1468441550868" expanded="true" signature="2001:2013" placeholder="remove" />
+            <marker date="1468441550868" expanded="true" signature="2676:2687" placeholder="views" />
+            <marker date="1468441550868" expanded="true" signature="2897:2911" placeholder="comments" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanEntityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="115" column="23" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="23" />
+          <folding>
+            <element signature="e#4459#4460#0" expanded="true" />
+            <element signature="e#4489#4490#0" expanded="true" />
           </folding>
         </state>
       </provider>

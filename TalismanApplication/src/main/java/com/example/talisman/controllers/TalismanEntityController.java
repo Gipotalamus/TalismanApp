@@ -111,4 +111,9 @@ public class TalismanEntityController {
     }
 
 
+    @RequestMapping("/about")
+    public String about() {
+        return "about";
+    }
+
 }
