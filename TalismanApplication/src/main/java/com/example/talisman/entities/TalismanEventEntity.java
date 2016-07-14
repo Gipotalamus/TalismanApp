@@ -31,6 +31,9 @@ public class TalismanEventEntity {
     @OneToMany(mappedBy = "event", cascade = CascadeType.REMOVE)
     private List<Comment> comments;
 
+    @OneToMany(mappedBy = "event", cascade = CascadeType.REMOVE)
+    private List<TalismanPhotoEntity> photos;
+
     private int views;
 
     public TalismanEventEntity() {
@@ -88,5 +91,13 @@ public class TalismanEventEntity {
 
     public void setComments(List<Comment> comments) {
         this.comments = comments;
+    }
+
+    public List<TalismanPhotoEntity> getPhotos() {
+        return photos;
+    }
+
+    public void setPhotos(List<TalismanPhotoEntity> photos) {
+        this.photos = photos;
     }
 }

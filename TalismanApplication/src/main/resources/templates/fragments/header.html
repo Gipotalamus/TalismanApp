@@ -10,12 +10,12 @@
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" th:text="#{menu.title}" href="#">Talisman band</a>
+                <a class="navbar-brand" th:text="#{menu.title}" href="#" th:href="@{/}">Talisman band</a>
             </div>
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#" th:href="@{/}" th:text="#{menu.home}">Home</a></li>
                 <li><a href="#" th:href="@{/members/}" th:text="#{menu.stuff}">Stuff</a></li>
                 <li><a href="#" th:href="@{/about/}" th:text="#{menu.about}">About</a></li>
+                <li class="active"><a href="#" th:href="@{/photos/}" th:text="#{menu.photos}">Photos</a></li>
                 <li><a href="#" th:href="@{/contacts/}" th:text="#{menu.contacts}">Contacts</a></li>
             </ul>
             <a href="#" th:href="@{'?language=ua'}"><img th:src="@{/images/Ukraine-icon.png}"/></a>
