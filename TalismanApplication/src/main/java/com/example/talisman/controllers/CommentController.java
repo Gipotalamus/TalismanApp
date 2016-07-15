@@ -24,7 +24,7 @@ public class CommentController {
 
     @RequestMapping(value = "/addComment", method = RequestMethod.POST)
     public String addComment(Comment comment, Model model) {
-        commentService.saveComment(comment);
+        commentService.save(comment);
         TalismanEventEntity event = comment.getEvent();
         model.addAttribute("event", event);
         return "redirect:/talismanEvents/view/" + event.getId();
@@ -32,9 +32,9 @@ public class CommentController {
 
     @RequestMapping("/remove/{id}")
     public String deleteComment(@PathVariable("id") int id, Model model) {
-        TalismanEventEntity event = commentService.getComment(id).getEvent();
+        TalismanEventEntity event = commentService.get(id).getEvent();
         model.addAttribute("event", event);
-        commentService.deleteComment(id);
+        commentService.delete(id);
         return "detailedEvent";
     }
 

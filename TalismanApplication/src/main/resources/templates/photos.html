@@ -11,13 +11,13 @@
 <div th:include="fragments/header :: header">Default header</div>
 <div class="container" style="max-width: 40%; background-color: lightsteelblue">
 <div>
-    <div style=" float:right; max-height: 50px; width: auto; margin: 5px" th:each="photo : ${photos}">
-    <img src="source" th:src="${photo.photo}"/>
-    <div align="center" th:text="${photo.title}"></div>
+    <img style="max-height: 100px; width: auto; margin: 5px" th:each="photo : ${photos}" src="source" th:src="${photo.photo}"/>
 </div>
+    <a href="start.html" sec:authorize="hasRole('ROLE_ADMIN')" th:href="@{/photos/edit/0}">
+        <span class="glyphicon glyphicon-plus"></span>
+    </a>
+    <!--Footer-->
+    <div th:include="fragments/footer :: footer">Default footer</div>
 </div>
-
-</div>
-
 </body>
 </html>

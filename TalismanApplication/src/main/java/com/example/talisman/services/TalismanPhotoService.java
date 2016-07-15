@@ -28,4 +28,8 @@ public class TalismanPhotoService {
     public List<TalismanPhotoEntity> findAll() {
         return photoRepository.findAll();
     }
+
+    public TalismanPhotoEntity find(int id) {
+        return id==0 ? new TalismanPhotoEntity() : photoRepository.findOne(id);
+    }
 }

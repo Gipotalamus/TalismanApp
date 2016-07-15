@@ -45,7 +45,7 @@ public class CustomUserDetailsService implements UserDetailsService {
         return authorities;
     }
 
-    public void saveUser(TalismanUser user) {
+    public void save(TalismanUser user) {
         String pass = user.getPassword();
         String encodedPass = passwordEncoder.encode(pass);
         user.setPassword(encodedPass);

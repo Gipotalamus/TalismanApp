@@ -27,7 +27,7 @@ public class CommentService {
     @Inject
     CustomUserDetailsService customUserDetailsService;
 
-    public void saveComment(Comment comment) {
+    public void save(Comment comment) {
         LocalDateTime date = LocalDateTime.now();
         UserDetails userDetails = (UserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         comment.setUser(customUserDetailsService.findOneByName(userDetails.getUsername()));
@@ -35,11 +35,11 @@ public class CommentService {
         commentRepository.save(comment);
     }
 
-    public void deleteComment(Integer id) {
+    public void delete(Integer id) {
         commentRepository.delete(id);
     }
 
-    public Comment getComment(Integer id) {
+    public Comment get(Integer id) {
         return commentRepository.getOne(id);
     }
 

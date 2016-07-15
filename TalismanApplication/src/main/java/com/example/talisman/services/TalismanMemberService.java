@@ -22,8 +22,8 @@ public class TalismanMemberService {
         return talismanMemberRepository.findAll();
     }
 
-    public void addMember(TalismanMemberEntity talismanMemberEntity) {
-        talismanMemberRepository.save(talismanMemberEntity);
+    public void add(TalismanMemberEntity member) {
+        talismanMemberRepository.save(member);
     }
 
     public int getMaxId() {
@@ -31,11 +31,11 @@ public class TalismanMemberService {
         return entity == null ? 1 : entity.getId();
     }
 
-    public TalismanMemberEntity getMember(Integer id) {
+    public TalismanMemberEntity find(Integer id) {
         return talismanMemberRepository.findOne(id);
     }
 
-    public void deleteMember(Integer id) {
+    public void delete(Integer id) {
         talismanMemberRepository.delete(id);
     }
 }

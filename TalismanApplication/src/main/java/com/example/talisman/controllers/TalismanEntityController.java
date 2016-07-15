@@ -66,13 +66,13 @@ public class TalismanEntityController {
     }
 
     @RequestMapping("/talismanEvents/edit/{eventId}")
-    public String talismanEventForm(@PathVariable(value = "eventId") int id, Model model) {
+    public String addOrEdit(@PathVariable(value = "eventId") int id, Model model) {
         model.addAttribute("talismanEventEntity", talismanEventService.get(id));
         return "talismanEvent";
     }
 
     @RequestMapping(path = "/talismanEvents/saveOrUpdate", method = RequestMethod.POST)
-    public String saveOrUpdateEvent(@Valid TalismanEventEntity talismanEventEntity, BindingResult bindingResult) {
+    public String saveOrUpdate(@Valid TalismanEventEntity talismanEventEntity, BindingResult bindingResult) {
         System.out.println(talismanEventEntity.getTitle());
         if (bindingResult.hasErrors()) {
             System.out.println(bindingResult.getAllErrors());
@@ -83,13 +83,13 @@ public class TalismanEntityController {
     }
 
     @RequestMapping("/talismanEvents/remove/{eventId}")
-    public String removeEvent(@PathVariable("eventId") int id) {
+    public String remove(@PathVariable("eventId") int id) {
         talismanEventService.remove(id);
         return "redirect:/";
     }
 
     @RequestMapping("/talismanEvents/view/{eventId}")
-    public String viewDetailedEvent(@PathVariable("eventId") int id, Model model) {
+    public String viewDetailed(@PathVariable("eventId") int id, Model model) {
         TalismanEventEntity event= talismanEventService.get(id);
         talismanEventService.increaseViews(id);
         model.addAttribute("event", event);
@@ -97,7 +97,7 @@ public class TalismanEntityController {
     }
 
     @RequestMapping("/talismanEvents/comment/{eventId}")
-    public String commentEvent(@PathVariable("eventId") int id, Model model) {
+    public String comment(@PathVariable("eventId") int id, Model model) {
         TalismanEventEntity event= talismanEventService.get(id);
         Comment comment = new Comment();
         comment.setEvent(event);

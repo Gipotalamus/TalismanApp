@@ -33,31 +33,31 @@ public class TalismanMemberController {
     TalismanMemberService talismanMemberService;
 
     @RequestMapping("/")
-    public String getAllMembers(Model model) {
+    public String getAll(Model model) {
         model.addAttribute("members", talismanMemberService.getAll());
         return "stuff";
     }
 
     @RequestMapping("/{memberId}")
-    public String getMember(@PathVariable("memberId") int memberId, Model model) {
-        TalismanMemberEntity member = talismanMemberService.getMember(memberId);
+    public String get(@PathVariable("memberId") int memberId, Model model) {
+        TalismanMemberEntity member = talismanMemberService.find(memberId);
         model.addAttribute("member", member);
         return "member";
     }
 
     @RequestMapping(value = "/addMember", method = RequestMethod.GET)
-    public String addMember(Model model) {
+    public String add(Model model) {
         model.addAttribute("talismanMemberEntity", new TalismanMemberEntity());
         return "talismanMember";
     }
 
     @RequestMapping(value = "/addMember", method = RequestMethod.POST)
-    public String addMember(@RequestParam(name = "file", required = false) MultipartFile file,
-                            TalismanMemberEntity talismanMemberEntity, BindingResult result, HttpServletRequest request) {
+    public String add(@RequestParam(name = "file", required = false) MultipartFile file,
+                            TalismanMemberEntity member, BindingResult result) {
         String[] s = file.getOriginalFilename().split("\\.");
         String photo = "/uploaded/" + (talismanMemberService.getMaxId() + 1) + "." + s[s.length - 1];
-        talismanMemberEntity.setPhoto(photo);
-        validator.validate(talismanMemberEntity, result);
+        member.setPhoto(photo);
+        validator.validate(member, result);
         if (!result.hasErrors()) {
             String filePath = "/home/gipotalamus/Idea/" + photo;
             try {
@@ -65,22 +65,22 @@ public class TalismanMemberController {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            talismanMemberService.addMember(talismanMemberEntity);
+            talismanMemberService.add(member);
             return "redirect:/";
         } else return "talismanMember";
 
     }
 
     @RequestMapping("/remove/{memberId}")
-    public String deleteMember(@PathVariable("memberId") int id) {
-        talismanMemberService.deleteMember(id);
+    public String delete(@PathVariable("memberId") int id) {
+        talismanMemberService.delete(id);
         System.out.println("deleted");
         return "redirect:/members/";
     }
 
     @RequestMapping("/edit/{memberId}")
-    public String editMember(@PathVariable("memberId") int id, Model model) {
-        TalismanMemberEntity member = talismanMemberService.getMember(id);
+    public String edit(@PathVariable("memberId") int id, Model model) {
+        TalismanMemberEntity member = talismanMemberService.find(id);
         model.addAttribute("talismanMemberEntity", member);
         return "talismanMember";
     }

@@ -41,6 +41,14 @@ public class TalismanEventService {
     }
 
     public Page<TalismanEventEntity> getPaginatedEvents(Pageable pageable) {
+        return getAll(pageable);
+    }
+
+    public List<TalismanEventEntity> getAll() {
+        return talismanEventRepository.findAll();
+    }
+
+    public Page<TalismanEventEntity> getAll(Pageable pageable){
         return talismanEventRepository.findAll(pageable);
     }
 
@@ -49,4 +57,5 @@ public class TalismanEventService {
         event.setViews(event.getViews() + 1);
         talismanEventRepository.save(event);
     }
+
 }

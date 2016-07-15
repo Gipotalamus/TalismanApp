@@ -1,12 +1,16 @@
 package com.example.talisman.controllers;
 
 
+import com.example.talisman.entities.TalismanEventEntity;
 import com.example.talisman.entities.TalismanPhotoEntity;
+import com.example.talisman.services.TalismanEventService;
 import com.example.talisman.services.TalismanPhotoService;
+import com.example.talisman.validators.PhotoValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -24,14 +28,35 @@ public class TalismanPhotoController {
     @Autowired
     TalismanPhotoService talismanPhotoService;
 
-    @RequestMapping(value = "/add", method = RequestMethod.POST)
-    public String addPhoto(@RequestParam(name = "file", required = false) MultipartFile file,
+    @Autowired
+    TalismanEventService talismanEventService;
+
+    @Autowired
+    PhotoValidator validator;
+
+    @RequestMapping("/")
+    public String showAll(Model model) {
+        model.addAttribute("photos", talismanPhotoService.findAll());
+        return "photos";
+    }
+
+    @RequestMapping("/edit/{photoId}")
+    public String addOrEdit(@PathVariable("photoId") int id, Model model) {
+        TalismanPhotoEntity photo = talismanPhotoService.find(id);
+        model.addAttribute("talismanPhotoEntity", photo);
+        model.addAttribute("events", talismanEventService.getAll());
+        return "photo";
+    }
+
+    @RequestMapping(value = "/saveOrUpdate", method = RequestMethod.POST)
+    public String add(@RequestParam(name = "file", required = false) MultipartFile file,
                            TalismanPhotoEntity talismanPhotoEntity, BindingResult result) {
         String[] s = file.getOriginalFilename().split("\\.");
         String photo = "/uploaded/talismanPhotos/" + (talismanPhotoService.getMaxId() + 1) + "." + s[s.length - 1];
         talismanPhotoEntity.setPhoto(photo);
-//        validator.validate(talismanPhotoEntity, result);
+        validator.validate(talismanPhotoEntity, result);
         if (!result.hasErrors()) {
+            System.out.println("no errors");
             String filePath = "/home/gipotalamus/Idea/" + photo;
             try {
                 file.transferTo(new File(filePath));
@@ -39,15 +64,15 @@ public class TalismanPhotoController {
                 e.printStackTrace();
             }
             talismanPhotoService.addPhoto(talismanPhotoEntity);
-            return "redirect:/";
-        } else return "talismanMember";
+            return "redirect:/photos/";
+        } else {
+
+            System.out.println(result.toString());
+            return "photo";
+        }
 
     }
 
-    @RequestMapping("/")
-    public String showAllPhotos(Model model) {
-        model.addAttribute("photos", talismanPhotoService.findAll());
-        return "photos";
-    }
+
 
 }

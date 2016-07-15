@@ -41,7 +41,7 @@ public class UserController {
             return "signUp";
         }
         talismanUser.setRole("ROLE_USER");
-        userDetailsService.saveUser(talismanUser);
+        userDetailsService.save(talismanUser);
         return "redirect:/";
     }
 }
