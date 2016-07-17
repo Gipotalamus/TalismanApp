@@ -5,6 +5,7 @@ import com.example.talisman.entities.Comment;
 import com.example.talisman.entities.TalismanEventEntity;
 import com.example.talisman.services.CommentService;
 import com.example.talisman.services.TalismanEventService;
+import com.example.talisman.services.TalismanPhotoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
@@ -32,13 +33,16 @@ import java.util.stream.Stream;
  * Created by мир on 15.03.2016.
  */
 @Controller
-public class TalismanEntityController {
+public class TalismanEventController {
 
     @Autowired
     TalismanEventService talismanEventService;
 
     @Autowired
     CommentService commentService;
+
+    @Autowired
+    TalismanPhotoService photoService;
 
     @Value("${pagination.count}")
     private int entitiesPerPageCount;
@@ -102,6 +106,7 @@ public class TalismanEntityController {
         Comment comment = new Comment();
         comment.setEvent(event);
         model.addAttribute("comment", comment);
+
         return "comment";
     }
 
@@ -112,7 +117,14 @@ public class TalismanEntityController {
 
 
     @RequestMapping("/about")
-    public String about() {
+    public String about(Model model) {
+        model.addAttribute("menu", "about");
+        return "about";
+    }
+
+    @RequestMapping("/contacts")
+    public String contacts(Model model) {
+        model.addAttribute("menu", "contacts");
         return "about";
     }
 

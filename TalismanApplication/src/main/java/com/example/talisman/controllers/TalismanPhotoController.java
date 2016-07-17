@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -37,6 +38,7 @@ public class TalismanPhotoController {
     @RequestMapping("/")
     public String showAll(Model model) {
         model.addAttribute("photos", talismanPhotoService.findAll());
+        model.addAttribute("menu", "photos");
         return "photos";
     }
 
@@ -50,7 +52,7 @@ public class TalismanPhotoController {
 
     @RequestMapping(value = "/saveOrUpdate", method = RequestMethod.POST)
     public String add(@RequestParam(name = "file", required = false) MultipartFile file,
-                           TalismanPhotoEntity talismanPhotoEntity, BindingResult result) {
+                      TalismanPhotoEntity talismanPhotoEntity, BindingResult result) {
         String[] s = file.getOriginalFilename().split("\\.");
         String photo = "/uploaded/talismanPhotos/" + (talismanPhotoService.getMaxId() + 1) + "." + s[s.length - 1];
         talismanPhotoEntity.setPhoto(photo);
@@ -73,6 +75,9 @@ public class TalismanPhotoController {
 
     }
 
-
-
+    @RequestMapping("/remove/{photoId}")
+    public String remove(@PathVariable("photoId") int id) {
+        talismanPhotoService.remove(id);
+        return "redirect:/photos/";
+    }
 }

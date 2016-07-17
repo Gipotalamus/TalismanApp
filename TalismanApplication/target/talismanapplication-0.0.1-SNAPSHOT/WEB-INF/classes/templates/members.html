@@ -17,7 +17,7 @@
         </tr>
         <tr th:each="member : ${members}">
             <td>
-                <a href="stuff.html" th:text="${member.name}" th:href="@{/members/} + ${member.id}"></a>
+                <a href="members.html" th:text="${member.name}" th:href="@{/members/} + ${member.id}"></a>
             </td>
             <td style="text-align: justify" th:text="${member.story}"></td>
             <td>
@@ -25,7 +25,9 @@
             </td>
         </tr>
     </table>
-    <a href="some page" th:href="@{/members/addMember}" th:text="#{member.add}" sec:authorize="hasRole('ROLE_ADMIN')">Add member</a>
+    <a href="some page" th:href="@{/members/addMember}" sec:authorize="hasRole('ROLE_ADMIN')">
+        <span class="glyphicon glyphicon-plus"></span>
+    </a>
 </div>
 
 

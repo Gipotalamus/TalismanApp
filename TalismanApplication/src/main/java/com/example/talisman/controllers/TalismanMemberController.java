@@ -35,7 +35,8 @@ public class TalismanMemberController {
     @RequestMapping("/")
     public String getAll(Model model) {
         model.addAttribute("members", talismanMemberService.getAll());
-        return "stuff";
+        model.addAttribute("menu", "stuff");
+        return "members";
     }
 
     @RequestMapping("/{memberId}")

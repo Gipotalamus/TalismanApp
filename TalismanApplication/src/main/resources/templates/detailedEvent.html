@@ -18,8 +18,12 @@
                 Event text goes here
             </div>
             <div style="margin-top: 10px">
-                <div style="float: left" th:text="${event.date}"></div>
+                <div style="float: left" th:text="${#dates.format(event.date, 'yyyy-MM-dd  hh:mm:ss')}"></div>
             </div>
+        </div>
+        <hr align="al"/>
+        <div>
+            <img style="max-height: 100px; width: auto; margin: 2px" th:each="photo : ${event.photos}" src="some" th:src="${photo.photo}"/>
         </div>
     </div>
     <hr align="al"/>
@@ -33,7 +37,7 @@
                         <span class="glyphicon glyphicon-remove"></span>
                     </a>
                 </div>
-                <div style="float: right" th:text="${comment.date}">Date</div>
+                <div style="float: right" th:text="${#dates.format(comment.date, 'yyyy-MM-dd  hh:mm:ss')}">Date</div>
 
             </div>
             <hr align="al"/>

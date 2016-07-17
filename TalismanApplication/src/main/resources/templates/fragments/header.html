@@ -13,10 +13,10 @@
                 <a class="navbar-brand" th:text="#{menu.title}" href="#" th:href="@{/}">Talisman band</a>
             </div>
             <ul class="nav navbar-nav">
-                <li><a href="#" th:href="@{/members/}" th:text="#{menu.stuff}">Stuff</a></li>
-                <li><a href="#" th:href="@{/about/}" th:text="#{menu.about}">About</a></li>
-                <li class="active"><a href="#" th:href="@{/photos/}" th:text="#{menu.photos}">Photos</a></li>
-                <li><a href="#" th:href="@{/contacts/}" th:text="#{menu.contacts}">Contacts</a></li>
+                <li th:class="${menu}=='stuff' ? 'active'"><a href="#" th:href="@{/members/}" th:text="#{menu.stuff}">Stuff</a></li>
+                <li th:class="${menu}=='about' ? 'active'"><a href="#" th:href="@{/about/}" th:text="#{menu.about}">About</a></li>
+                <li th:class="${menu}=='photos' ? 'active'"><a href="#" th:href="@{/photos/}" th:text="#{menu.photos}">Photos</a></li>
+                <li th:class="${menu}=='contacts' ? 'active'"><a href="#" th:href="@{/contacts/}" th:text="#{menu.contacts}">Contacts</a></li>
             </ul>
             <a href="#" th:href="@{'?language=ua'}"><img th:src="@{/images/Ukraine-icon.png}"/></a>
             <a href="#" th:href="@{'?language=en'}"><img th:src="@{/images/GreatBritain-icon.png}"/></a>

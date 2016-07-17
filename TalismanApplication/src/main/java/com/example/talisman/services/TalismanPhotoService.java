@@ -30,6 +30,9 @@ public class TalismanPhotoService {
     }
 
     public TalismanPhotoEntity find(int id) {
-        return id==0 ? new TalismanPhotoEntity() : photoRepository.findOne(id);
+        return id == 0 ? new TalismanPhotoEntity() : photoRepository.findOne(id);
+    }
+
+    public void remove(int id) { photoRepository.delete(id);
     }
 }
