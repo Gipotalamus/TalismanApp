@@ -1,7 +1,5 @@
 package com.example.talisman.controllers;
 
-
-import com.example.talisman.entities.TalismanEventEntity;
 import com.example.talisman.entities.TalismanPhotoEntity;
 import com.example.talisman.services.TalismanEventService;
 import com.example.talisman.services.TalismanPhotoService;
@@ -15,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
-
 import java.io.File;
 import java.io.IOException;
 
@@ -77,7 +74,7 @@ public class TalismanPhotoController {
 
     @RequestMapping("/remove/{photoId}")
     public String remove(@PathVariable("photoId") int id) {
-        talismanPhotoService.remove(id);
+        talismanPhotoService.delete(id);
         return "redirect:/photos/";
     }
 }

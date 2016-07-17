@@ -2,15 +2,12 @@ package com.example.talisman.services;
 
 
 import com.example.talisman.entities.TalismanEventEntity;
+import com.example.talisman.entities.TalismanPhotoEntity;
 import com.example.talisman.repositories.TalismanEventRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-
-import javax.inject.Inject;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Date;
@@ -22,7 +19,10 @@ import java.util.List;
 @Service
 public class TalismanEventService {
 
-    @Inject
+    @Autowired
+    private TalismanPhotoService photoService;
+
+    @Autowired
     private TalismanEventRepository talismanEventRepository;
 
 
@@ -36,7 +36,10 @@ public class TalismanEventService {
         return talismanEventRepository.findOne(id);
     }
 
-    public void remove(int id) {
+    public void delete(int id) {
+        TalismanEventEntity event = get(id);
+        List<TalismanPhotoEntity> photos = event.getPhotos();
+        photoService.delete(photos);
         talismanEventRepository.delete(id);
     }
 

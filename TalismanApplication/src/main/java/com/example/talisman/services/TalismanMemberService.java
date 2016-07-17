@@ -1,12 +1,10 @@
 package com.example.talisman.services;
 
-
 import com.example.talisman.entities.TalismanMemberEntity;
 import com.example.talisman.repositories.TalismanMemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import javax.inject.Inject;
+import java.io.File;
 import java.util.List;
 
 /**
@@ -15,7 +13,7 @@ import java.util.List;
 @Service
 public class TalismanMemberService {
 
-    @Inject
+    @Autowired
     TalismanMemberRepository talismanMemberRepository;
 
     public List<TalismanMemberEntity> getAll() {
@@ -36,6 +34,9 @@ public class TalismanMemberService {
     }
 
     public void delete(Integer id) {
+        String filePath = "/home/gipotalamus/Idea/" + find(id).getPhoto();
+        File file = new File(filePath);
+        file.delete();
         talismanMemberRepository.delete(id);
     }
 }

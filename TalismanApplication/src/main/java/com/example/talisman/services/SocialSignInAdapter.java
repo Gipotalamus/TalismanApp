@@ -1,19 +1,17 @@
 package com.example.talisman.services;
 
-import com.example.talisman.entities.TalismanUser;
+
 import com.example.talisman.repositories.TalismanUserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.User;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.social.connect.Connection;
 import org.springframework.social.connect.web.SignInAdapter;
 import org.springframework.social.facebook.api.Facebook;
 import org.springframework.stereotype.Service;
 import org.springframework.web.context.request.NativeWebRequest;
-import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,13 +21,8 @@ import java.util.List;
 @Service
 public class SocialSignInAdapter implements SignInAdapter {
 
-    @Inject
-    private TalismanUserRepository talismanUserRepository;
-
-    @Inject
+    @Autowired
     private Facebook facebook;
-
-
 
     @Override
     public String signIn(String s, Connection<?> connection, NativeWebRequest nativeWebRequest) {

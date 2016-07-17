@@ -1,18 +1,14 @@
 package com.example.talisman.controllers;
 
-import com.example.talisman.entities.Role;
 import com.example.talisman.entities.TalismanUser;
 import com.example.talisman.services.CustomUserDetailsService;
 import com.example.talisman.validators.UserValidator;
-import org.springframework.security.config.authentication.CachingUserDetailsService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
-import javax.inject.Inject;
-import javax.validation.Valid;
 
 /**
  * Created by gipotalamus on 25.05.16.
@@ -20,10 +16,10 @@ import javax.validation.Valid;
 @Controller
 @RequestMapping("/user")
 public class UserController {
-    @Inject
+    @Autowired
     UserValidator userValidator;
 
-    @Inject
+    @Autowired
     CustomUserDetailsService userDetailsService;
 
     @RequestMapping("/add")

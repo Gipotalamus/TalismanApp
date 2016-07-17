@@ -1,23 +1,16 @@
 package com.example.talisman.controllers;
 
-
 import com.example.talisman.entities.TalismanMemberEntity;
 import com.example.talisman.services.TalismanMemberService;
 import com.example.talisman.validators.MemberValidator;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.annotation.Secured;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.validation.Valid;
 import java.io.File;
 import java.io.IOException;
-
 
 /**
  * Created by мир on 27.03.2016.
@@ -75,7 +68,6 @@ public class TalismanMemberController {
     @RequestMapping("/remove/{memberId}")
     public String delete(@PathVariable("memberId") int id) {
         talismanMemberService.delete(id);
-        System.out.println("deleted");
         return "redirect:/members/";
     }
 

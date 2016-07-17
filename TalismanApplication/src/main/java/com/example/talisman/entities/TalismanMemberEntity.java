@@ -1,9 +1,6 @@
 package com.example.talisman.entities;
 
-import org.hibernate.validator.constraints.NotEmpty;
-
 import javax.persistence.*;
-import javax.validation.constraints.Pattern;
 
 /**
  * Created by мир on 27.03.2016.

@@ -1,10 +1,7 @@
 package com.example.talisman.entities;
 
-
 import org.hibernate.validator.constraints.NotEmpty;
-
 import javax.persistence.*;
-import javax.ws.rs.DefaultValue;
 import java.util.Date;
 import java.util.List;
 
@@ -31,7 +28,7 @@ public class TalismanEventEntity {
     @OneToMany(mappedBy = "event", cascade = CascadeType.REMOVE)
     private List<Comment> comments;
 
-    @OneToMany(mappedBy = "event", cascade = CascadeType.REMOVE)
+    @OneToMany(mappedBy = "event")
     private List<TalismanPhotoEntity> photos;
 
     private int views;
