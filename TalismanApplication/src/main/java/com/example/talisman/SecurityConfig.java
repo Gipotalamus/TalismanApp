@@ -30,8 +30,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 
         http
                 .authorizeRequests()
-                .antMatchers("/talismanEvents/view/*", "/members/{\\\\d+}", "/members/").permitAll()
-                .antMatchers("/talismanEvents/**", "/members/**", "/comments/**").hasRole("ADMIN")
+                .antMatchers("/*/", "/members/{\\\\d+}").permitAll()
+                .antMatchers("/talismanEvents/**", "/members/**", "/comments/**", "/photos/**").hasRole("ADMIN")
                 .antMatchers("comments/add").hasAnyRole()
                 .antMatchers("/**").permitAll()
                 .anyRequest().authenticated()

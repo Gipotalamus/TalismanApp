@@ -3,6 +3,8 @@ package com.example.talisman.services;
 import com.example.talisman.entities.TalismanPhotoEntity;
 import com.example.talisman.repositories.TalismanPhotoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import java.io.File;
 import java.time.LocalDateTime;
@@ -51,5 +53,9 @@ public class TalismanPhotoService {
             delete(photoEntity.getId());
         }
 
+    }
+
+    public Page<TalismanPhotoEntity> findAll(Pageable pageable) {
+        return photoRepository.findAll(pageable);
     }
 }

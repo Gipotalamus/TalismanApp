@@ -11,7 +11,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7539"/>
+    <property name="idea.launcher.port" value="7542"/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
@@ -31,7 +31,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="4.4.0-24-generic"/>
+    <property name="os.version" value="4.4.0-31-generic"/>
     <property name="user.home" value="/home/gipotalamus"/>
     <property name="user.timezone" value="Europe/Kiev"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>

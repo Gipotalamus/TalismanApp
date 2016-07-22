@@ -16,7 +16,7 @@ import java.io.IOException;
  * Created by мир on 27.03.2016.
  */
 @Controller
-@RequestMapping("/members/*")
+@RequestMapping("/members")
 public class TalismanMemberController {
 
     @Autowired

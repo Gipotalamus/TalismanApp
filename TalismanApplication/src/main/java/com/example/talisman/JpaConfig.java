@@ -14,7 +14,7 @@ public class JpaConfig {
     @Bean
     public DataSource dataSource() {
         return DataSourceBuilder.create()
-                .url("jdbc:mysql://localhost:3306/test?useUnicode=yes&characterEncoding=UTF-8")
+                .url("jdbc:mysql://mysql:3306/test?useUnicode=yes&characterEncoding=UTF-8")
                 .driverClassName("com.mysql.jdbc.Driver")
                 .username("root")
                 .password("root")

@@ -41,12 +41,10 @@ public class FrontController {
         }
         session.setAttribute("sort", sort);
         int currentPage = pageable.getPageNumber();
-        Sort sortCriteria = (Sort)session.getAttribute("sort");
-        pageable = new PageRequest(currentPage, entitiesPerPageCount, sortCriteria);
-        Page<TalismanEventEntity> page = talismanEventService.getPaginatedEvents(pageable);
-        model.addAttribute("currentPage", pageable.getPageNumber());
+        pageable = new PageRequest(currentPage, entitiesPerPageCount, sort);
+        Page<TalismanEventEntity> page = talismanEventService.getAll(pageable);
+        model.addAttribute("currentPage", currentPage);
         model.addAttribute("pagesCount", page.getTotalPages()==0?1:page.getTotalPages());
-        page.forEach(talismanEventEntity -> System.out.println(talismanEventEntity.getDate()));
         model.addAttribute("events", page);
         return "start";
     }
@@ -65,7 +63,7 @@ public class FrontController {
     @RequestMapping("/contacts")
     public String contacts(Model model) {
         model.addAttribute("menu", "contacts");
-        return "about";
+        return "contacts";
     }
 
 }

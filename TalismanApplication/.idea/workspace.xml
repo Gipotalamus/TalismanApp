@@ -2,33 +2,259 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe1dbb5-4855-4407-8210-2ef123b81c2a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/about_background.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/contacts_background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/photos_background.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/static/images/about_background.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/static/images/contacts_background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/static/images/photos_background.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/templates/contacts.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/img_background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/img_header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/wed2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/images/wed2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/JpaConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/MultilanguageAndValidationContext$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/MultilanguageAndValidationContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/RestConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/SecurityConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/ServletInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/SocialConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/TalismanApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/ThymeleafConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/controllers/CommentController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/controllers/FrontController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/controllers/TalismanEventController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/controllers/TalismanMemberController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/controllers/TalismanPhotoController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/controllers/UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/entities/Comment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/entities/Role.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/entities/TalismanEventEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/entities/TalismanMemberEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/entities/TalismanPhotoEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/entities/TalismanUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/entities/projections/EventProjection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/repositories/CommentRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/repositories/TalismanEventRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/repositories/TalismanMemberRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/repositories/TalismanPhotoRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/repositories/TalismanUserRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/services/CommentService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/services/CustomSocialUserDetailsService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/services/CustomUserDetailsService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/services/SocialSignInAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/services/TalismanEventService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/services/TalismanMemberService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/services/TalismanPhotoService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/validators/MemberValidator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/validators/PhotoValidator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/validators/UserValidator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/messages.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/messages_en.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/messages_ua.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/errorPages/403.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/errorPages/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/403.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/404.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/GreatBritain-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/Ukraine-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/img_wedding.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/wed2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/comment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/detailedEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/fragments/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/fragments/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/fragments/import.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/member.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/photo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/photos.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/signUp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/start.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/talismanEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/talismanMember.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/aopalliance-repackaged-2.4.0-b34.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/asm-all-repackaged-2.4.0-b34.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/bootstrap-3.3.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/class-model-2.4.0-b34.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/classmate-1.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/config-types-2.4.0-b34.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/groovy-2.4.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-4.0.5.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-core-4.3.11.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-4.3.11.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-validator-5.2.4.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/hk2-2.4.0-b34.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/hk2-api-2.4.0-b34.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/hk2-config-2.4.0-b34.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/hk2-core-2.4.0-b34.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/hk2-locator-2.4.0-b34.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/hk2-runlevel-2.4.0-b34.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/hk2-utils-2.4.0-b34.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.6.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.6.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.6.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-base-2.6.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-json-provider-2.6.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-jaxb-annotations-2.6.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jandex-1.1.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/javassist-3.18.1-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/javax.inject-2.4.0-b34.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/javax.transaction-api-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-bean-validation-2.22.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-client-2.22.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-common-2.22.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-container-servlet-2.22.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-container-servlet-core-2.22.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-entity-filtering-2.22.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-guava-2.22.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-media-jaxb-2.22.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-media-json-jackson-2.22.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-server-2.22.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-spring3-2.22.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jquery-2.1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-over-slf4j-1.7.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.1.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.1.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.38.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/ognl-3.0.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/osgi-resource-locator-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/snakeyaml-1.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-4.2.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aspects-4.2.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-4.2.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-1.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-1.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-1.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-aop-1.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-data-jpa-1.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-hateoas-1.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-jdbc-1.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-jersey-1.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-1.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-security-1.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-thymeleaf-1.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-1.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-validation-1.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-1.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-ws-1.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-bridge-2.4.0-b34.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-4.2.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-4.2.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-commons-1.11.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-jpa-1.9.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-4.2.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-hateoas-0.19.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.2.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jms-4.2.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-messaging-4.2.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-orm-4.2.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-oxm-4.2.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-config-4.0.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-core-4.0.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-web-4.0.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-session-1.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-social-config-1.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-social-core-1.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-social-facebook-2.0.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-social-security-1.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-social-web-1.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-tx-4.2.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-4.2.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.2.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-ws-core-2.2.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-ws-support-2.2.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/spring-xml-2.2.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-2.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-extras-springsecurity4-2.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-layout-dialect-1.3.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-spring4-2.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/tiger-types-1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-8.0.32.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-8.0.32.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-logging-juli-8.0.32.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-8.0.32.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-jdbc-8.0.32.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-juli-8.0.32.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/unbescape-1.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/lib/xml-apis-1.0.b2.jar" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/static/images/img_background.jpg" afterPath="$PROJECT_DIR$/target/classes/static/images/start_background.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/static/images/img_header.jpg" afterPath="$PROJECT_DIR$/target/classes/static/images/members_background.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/img_background.jpg" afterPath="$PROJECT_DIR$/src/main/resources/static/images/start_background.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/static/images/img_header.jpg" afterPath="$PROJECT_DIR$/src/main/resources/static/images/members_background.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/templates/about.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/contacts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/talisman/JpaConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/example/talisman/JpaConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/talisman/SecurityConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/example/talisman/SecurityConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/talisman/controllers/FrontController.class" afterPath="$PROJECT_DIR$/target/classes/com/example/talisman/controllers/FrontController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/talisman/controllers/TalismanMemberController.class" afterPath="$PROJECT_DIR$/target/classes/com/example/talisman/controllers/TalismanMemberController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/talisman/controllers/TalismanPhotoController.class" afterPath="$PROJECT_DIR$/target/classes/com/example/talisman/controllers/TalismanPhotoController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/talisman/services/TalismanEventService.class" afterPath="$PROJECT_DIR$/target/classes/com/example/talisman/services/TalismanEventService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/talisman/services/TalismanMemberService.class" afterPath="$PROJECT_DIR$/target/classes/com/example/talisman/services/TalismanMemberService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/controllers/TalismanMemberController.class" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/controllers/TalismanMemberController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/services/TalismanEventService.class" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/services/TalismanEventService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/services/TalismanMemberService.class" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/talisman/services/TalismanMemberService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/talisman/services/TalismanPhotoService.class" afterPath="$PROJECT_DIR$/target/classes/com/example/talisman/services/TalismanPhotoService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/images/404.png" afterPath="$PROJECT_DIR$/target/classes/static/images/404.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/images/GreatBritain-icon.png" afterPath="$PROJECT_DIR$/target/classes/static/images/GreatBritain-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/images/Ukraine-icon.png" afterPath="$PROJECT_DIR$/target/classes/static/images/Ukraine-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/images/facebook.png" afterPath="$PROJECT_DIR$/target/classes/static/images/facebook.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/images/img_wedding.jpg" afterPath="$PROJECT_DIR$/target/classes/static/images/img_wedding.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/talismanapplication-0.0.1-SNAPSHOT.jar.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/CommentController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/CommentController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanEventController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanEventController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/JpaConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/JpaConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/SecurityConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/FrontController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/FrontController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanMemberController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanMemberController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanPhotoController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanPhotoController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/Comment.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/Comment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanEventEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanEventEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanMemberEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanMemberEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanUser.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/repositories/CommentRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/repositories/CommentRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/repositories/TalismanEventRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/repositories/TalismanEventRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/repositories/TalismanMemberRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/repositories/TalismanMemberRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/repositories/TalismanUserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/repositories/TalismanUserRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/services/CommentService.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/services/CommentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/services/CustomSocialUserDetailsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/services/CustomSocialUserDetailsService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/services/CustomUserDetailsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/services/CustomUserDetailsService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/services/SocialSignInAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/services/SocialSignInAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanEventService.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanEventService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanMemberService.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanMemberService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanPhotoService.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanPhotoService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/messages_en.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/messages_ua.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages_ua.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/members.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/members.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/photos.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/photos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/start.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/start.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/messages.properties" afterPath="$PROJECT_DIR$/target/classes/messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/messages_en.properties" afterPath="$PROJECT_DIR$/target/classes/messages_en.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/messages_ua.properties" afterPath="$PROJECT_DIR$/target/classes/messages_ua.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/errorPages/404.html" afterPath="$PROJECT_DIR$/target/classes/static/errorPages/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/about.html" afterPath="$PROJECT_DIR$/target/classes/templates/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/fragments/footer.html" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/fragments/import.html" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/import.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/login.html" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/members.html" afterPath="$PROJECT_DIR$/target/classes/templates/members.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/photos.html" afterPath="$PROJECT_DIR$/target/classes/templates/photos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/start.html" afterPath="$PROJECT_DIR$/target/classes/templates/start.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/talismanEvent.html" afterPath="$PROJECT_DIR$/target/classes/templates/talismanEvent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.talisman.TalismanApplicationTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.talisman.TalismanApplicationTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.talisman.TalismanApplicationTests.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.talisman.TalismanApplicationTests.txt" />
     </list>
     <ignored path="TalismanApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,86 +278,6 @@
     <option name="SORT_POSITIONED" value="false" />
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - test@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - test@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="talisman_user" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - test@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="talisman_photo_entity" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - test@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="talisman_member_entity" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - test@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="talisman_event_entity" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - test@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="comment" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -139,39 +285,110 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TalismanMemberController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanMemberController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TalismanEventController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanEventController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FrontController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/FrontController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+            <state relative-caret-position="414">
+              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2147#2148#0" expanded="true" />
-                <element signature="e#2177#2178#0" expanded="true" />
+                <element signature="e#1954#1955#0" expanded="false" />
+                <element signature="e#1984#1985#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TalismanEventService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanEventService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1497#1498#0" expanded="false" />
+                <element signature="e#1553#1554#0" expanded="false" />
+                <element signature="e#1618#1619#0" expanded="false" />
+                <element signature="e#1682#1683#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/start.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1116">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding>
+                <marker date="1468942644597" expanded="true" signature="781:792" placeholder="order by title" />
+                <marker date="1468942644597" expanded="true" signature="903:913" placeholder="order by date" />
+                <marker date="1468942644597" expanded="true" signature="983:994" placeholder="MAIN EVENTS LIST" />
+                <marker date="1468942644597" expanded="true" signature="1547:1560" placeholder="comment" />
+                <marker date="1468942644597" expanded="true" signature="1789:1799" placeholder="edit" />
+                <marker date="1468942644597" expanded="true" signature="2027:2039" placeholder="remove" />
+                <marker date="1468942644597" expanded="true" signature="2702:2713" placeholder="views" />
+                <marker date="1468942644597" expanded="true" signature="2923:2937" placeholder="comments" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photos.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/photos.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1469133899981" expanded="true" signature="652:664" placeholder="Photos" />
+                <marker date="1469133899981" expanded="true" signature="985:997" placeholder="remove" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JpaConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/JpaConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TalismanPhotoController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanPhotoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TalismanPhotoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanPhotoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1091#1092#0" expanded="false" />
+                <element signature="e#1139#1140#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -184,8 +401,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -200,39 +417,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.talisman_user" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/talismanEvent.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/member.html" />
         <option value="dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.talisman_member_entity" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/SecurityConfig.java" />
         <option value="dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.comment" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/signUp.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages.properties" />
         <option value="dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.talisman_event_entity" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/validators/MemberValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/validators/UserValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanPhoto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanPhotoEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanEntityController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/talismanMember.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/start.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/validators/PhotoValidator.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/photo.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/exceptionHandlers/GlobalHandler.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/errorPages/404.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages_ua.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/detailedEvent.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/photos.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/stuff.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/members.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/repositories/TalismanPhotoRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanEventService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanMemberService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanPhotoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanEventEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/repositories/TalismanMemberRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/repositories/TalismanUserRepository.java" />
@@ -241,16 +444,30 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanMemberEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/Comment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanPhotoController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanMemberController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/CommentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/services/CommentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/services/CustomSocialUserDetailsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/services/CustomUserDetailsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/services/SocialSignInAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/FrontController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanEventController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/start.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/members.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/about.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/contacts.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanMemberController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages_ua.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanPhotoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanEventService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/FrontController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanPhotoController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/photos.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/JpaConfig.java" />
       </list>
     </option>
   </component>
@@ -267,7 +484,32 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="TalismanApplication" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="TalismanApplication" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
@@ -300,7 +542,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -474,6 +717,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -655,8 +902,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -691,22 +937,22 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.example.talisman.repositories" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/images" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/images/members" />
+      <recent name="E:\from_e\IdeaProjects\TalismanApplication\src\main\resources\templates\errorPages" />
+      <recent name="E:\from_e\IdeaProjects\TalismanApplication\src\main\resources\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.talisman" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/static/images" />
       <recent name="E:\from_e\IdeaProjects\TalismanApplication\src\main\resources\static\errorPages" />
       <recent name="E:\from_e\IdeaProjects\TalismanApplication\src\main\resources\static\" />
       <recent name="E:\from_e\IdeaProjects\TalismanApplication\src\main\resources" />
       <recent name="E:\from_e\IdeaProjects\TalismanApplication\src\main\resources\templates\pages" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.talisman" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static/images/members" />
-      <recent name="E:\from_e\IdeaProjects\TalismanApplication\src\main\resources\templates\errorPages" />
-      <recent name="E:\from_e\IdeaProjects\TalismanApplication\src\main\resources\templates" />
-      <recent name="C:\Users\мир\IdeaProjects\TalismanApplication\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.TalismanApplication">
@@ -1265,15 +1511,20 @@
       <workItem from="1468592034183" duration="15260000" />
       <workItem from="1468762067660" duration="10472000" />
       <workItem from="1468778167874" duration="4575000" />
+      <workItem from="1468872208050" duration="93000" />
+      <workItem from="1468942307868" duration="8019000" />
+      <workItem from="1469127484313" duration="5839000" />
+      <workItem from="1469200789482" duration="26000" />
+      <workItem from="1469207448399" duration="4787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="383532000" />
+    <option name="totallyTimeSpent" value="402296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1282,18 +1533,18 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5018868" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18274933" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18274933" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.49811321" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2563581" sideWeight="0.49056605" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27873856" sideWeight="0.49056605" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21994609" sideWeight="0.49643946" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21994609" sideWeight="0.49643946" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13261455" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13261455" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1330,153 +1581,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.talisman_photo_entity">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.talisman_photo_entity">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/signUp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/import.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/ThymeleafConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/TalismanApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/SocialConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/ServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/RestConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/exceptionHandlers/GlobalHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/JpaConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/MultilanguageAndValidationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/errorPages/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/errorPages/403.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_ua.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/detailedEvent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="104" selection-start-line="39" selection-start-column="104" selection-end-line="39" selection-end-column="104" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1468771551562" expanded="true" signature="1777:1789" placeholder="remove" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/talismanMember.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-36">
@@ -1491,93 +1595,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/members.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/photo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1468611314634" expanded="true" signature="822:833" placeholder="Title:" />
-            <marker date="1468611314634" expanded="true" signature="999:1010" placeholder="Photo" />
-            <marker date="1468611314634" expanded="true" signature="1168:1179" placeholder="Select event:" />
-            <marker date="1468611314634" expanded="true" signature="1431:1444" placeholder="Submit" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/start.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="51" column="96" selection-start-line="51" selection-start-column="78" selection-end-line="51" selection-end-column="100" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1468604250767" expanded="true" signature="780:791" placeholder="order by title" />
-            <marker date="1468604250767" expanded="true" signature="902:912" placeholder="order by date" />
-            <marker date="1468604250767" expanded="true" signature="982:993" placeholder="MAIN EVENTS LIST" />
-            <marker date="1468604250767" expanded="true" signature="1546:1559" placeholder="comment" />
-            <marker date="1468604250767" expanded="true" signature="1788:1798" placeholder="edit" />
-            <marker date="1468604250767" expanded="true" signature="2026:2038" placeholder="remove" />
-            <marker date="1468604250767" expanded="true" signature="2701:2712" placeholder="views" />
-            <marker date="1468604250767" expanded="true" signature="2922:2936" placeholder="comments" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/photos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1468771887730" expanded="true" signature="771:783" placeholder="remove photo" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <marker date="1468772605214" expanded="true" signature="451:461" placeholder="Talisman band" />
-            <marker date="1468772605214" expanded="true" signature="670:680" placeholder="Stuff" />
-            <marker date="1468772605214" expanded="true" signature="801:811" placeholder="About" />
-            <marker date="1468772605214" expanded="true" signature="934:945" placeholder="Photos" />
-            <marker date="1468772605214" expanded="true" signature="1073:1086" placeholder="Contacts" />
-            <marker date="1468772605214" expanded="true" signature="1418:1429" placeholder="logged as:" />
-            <marker date="1468772605214" expanded="true" signature="2153:2165" placeholder="Sign up" />
-            <marker date="1468772605214" expanded="true" signature="2445:2456" placeholder="logout" />
-            <marker date="1468772605214" expanded="true" signature="2686:2696" placeholder="login" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.talisman_photo_entity">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1585,11 +1618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1855#1856#0" expanded="false" />
-            <element signature="e#1884#1885#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1597,9 +1625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1607,9 +1632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1617,7 +1639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1625,9 +1646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="76" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1635,7 +1653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1643,11 +1660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1300#1301#0" expanded="false" />
-            <element signature="e#1334#1335#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1655,7 +1667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1663,35 +1674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanPhotoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1699,9 +1681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1709,9 +1688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1719,7 +1695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
           <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1727,9 +1702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1737,7 +1709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1745,19 +1716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanEventService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1765,51 +1723,224 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanPhotoService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/Ukraine-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/members_background.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/photos_background.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/about_background.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/2.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/4.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/5.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/contacts_background.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/7.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/members.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/img_wedding.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanMemberController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanEventController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="91" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_ua.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1468942644597" expanded="true" signature="781:792" placeholder="order by title" />
+            <marker date="1468942644597" expanded="true" signature="903:913" placeholder="order by date" />
+            <marker date="1468942644597" expanded="true" signature="983:994" placeholder="MAIN EVENTS LIST" />
+            <marker date="1468942644597" expanded="true" signature="1547:1560" placeholder="comment" />
+            <marker date="1468942644597" expanded="true" signature="1789:1799" placeholder="edit" />
+            <marker date="1468942644597" expanded="true" signature="2027:2039" placeholder="remove" />
+            <marker date="1468942644597" expanded="true" signature="2702:2713" placeholder="views" />
+            <marker date="1468942644597" expanded="true" signature="2923:2937" placeholder="comments" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanEventService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1497#1498#0" expanded="false" />
+            <element signature="e#1553#1554#0" expanded="false" />
+            <element signature="e#1618#1619#0" expanded="false" />
+            <element signature="e#1682#1683#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/FrontController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        <state relative-caret-position="414">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2147#2148#0" expanded="true" />
-            <element signature="e#2177#2178#0" expanded="true" />
+            <element signature="e#1954#1955#0" expanded="false" />
+            <element signature="e#1984#1985#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanEventController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/photos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+        <state relative-caret-position="270">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1469133899981" expanded="true" signature="652:664" placeholder="Photos" />
+            <marker date="1469133899981" expanded="true" signature="985:997" placeholder="remove" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanPhotoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanPhotoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1091#1092#0" expanded="false" />
+            <element signature="e#1139#1140#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/JpaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>

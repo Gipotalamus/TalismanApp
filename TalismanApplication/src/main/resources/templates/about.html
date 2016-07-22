@@ -4,9 +4,9 @@
 <head>
     <div th:include="fragments/import :: bootstrap"></div>
     <meta charset="UTF-8"/>
-    <title>Start Page</title>
+    <title>About</title>
 </head>
-<body th:background="@{/images/img_background.jpg}">
+<body th:style="'background: url(\'' + @{/images/} + #{about.background} +'\') no-repeat; background-size: 100%'">
 <!--Menu-->
 <div th:include="fragments/header :: header">Default header</div>
 <div class="container" style="max-width: 40%; background-color: lightsteelblue">

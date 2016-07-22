@@ -43,10 +43,6 @@ public class TalismanEventService {
         talismanEventRepository.delete(id);
     }
 
-    public Page<TalismanEventEntity> getPaginatedEvents(Pageable pageable) {
-        return getAll(pageable);
-    }
-
     public List<TalismanEventEntity> getAll() {
         return talismanEventRepository.findAll();
     }

@@ -6,7 +6,7 @@
     <meta charset="UTF-8"/>
     <title>Members</title>
 </head>
-<body background="/images/img_background.jpg">
+<body th:background="@{/images/} + #{members.background}">
 <div th:include="fragments/header :: header">Default header</div>
 <div class="container" style="max-width: 40%; background-color: lightsteelblue">
     <table style="margin-top: 15px; text-align: center;" class="table table">

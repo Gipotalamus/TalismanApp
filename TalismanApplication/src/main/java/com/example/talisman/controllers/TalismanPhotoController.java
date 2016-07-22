@@ -5,6 +5,9 @@ import com.example.talisman.services.TalismanEventService;
 import com.example.talisman.services.TalismanPhotoService;
 import com.example.talisman.validators.PhotoValidator;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -33,9 +36,16 @@ public class TalismanPhotoController {
     PhotoValidator validator;
 
     @RequestMapping("/")
-    public String showAll(Model model) {
-        model.addAttribute("photos", talismanPhotoService.findAll());
+    public String showAll(@PageableDefault(value = 20) Pageable pageable, Model model) {
+
+        Page<TalismanPhotoEntity> page = talismanPhotoService.findAll(pageable);
+        int pagesCount = page.getTotalPages();
+        int currentPage = pageable.getPageNumber();
+        System.out.println(pagesCount);
+        model.addAttribute("photos", page);
         model.addAttribute("menu", "photos");
+        model.addAttribute("pagesCount", pagesCount);
+        model.addAttribute("currentPage", currentPage);
         return "photos";
     }
 
