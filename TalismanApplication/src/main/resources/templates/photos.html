@@ -10,7 +10,7 @@
 <!--Menu-->
 <div th:include="fragments/header :: header">Default header</div>
 <div class="container" style="max-width: 40%; background-color: lightsteelblue">
-    <h2 th:text="#{photo.header}">Photos</h2>
+    <h2 align="center" th:text="#{photo.header}">Photos</h2>
     <span style="display: inline-block; position: relative" th:each="photo : ${photos}">
         <img style="position:relative; max-height: 100px; width: auto; margin: 5px 5px" src="source" th:src="${photo.photo}"/>
         <a style="position: absolute; top: 5px; right: 5px" href="start.html" th:title="#{photo.remove}"
