@@ -10,7 +10,10 @@
 <!--Menu-->
 <div th:include="fragments/header :: header">Default header</div>
 <div class="container" style="max-width: 40%; background-color: lightsteelblue">
-    <h1>Some information about Talisman band here</h1>
+    <a href="start.html" th:title="#{talisman.edit}" th:href="@{/talisman/edit/}">
+        <span class="glyphicon glyphicon-edit"></span>
+    </a>
+    <h1 th:text="${talisman.about}">Some information about Talisman band here</h1>
 </div>
 
 </body>
