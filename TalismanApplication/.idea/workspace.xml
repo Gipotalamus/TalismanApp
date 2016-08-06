@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe1dbb5-4855-4407-8210-2ef123b81c2a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/FrontController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/validators/MemberValidator.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/validators/MemberValidator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/validators/PhotoValidator.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/validators/PhotoValidator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/messages_en.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/messages_ua.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages_ua.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/contacts.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/contacts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/photo.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/photo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/photos.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/photos.html" />
     </list>
     <ignored path="TalismanApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,93 +91,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TalismanController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanController.java">
+      <file leaf-file-name="photos.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/photos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="90" column="58" selection-start-line="90" selection-start-column="58" selection-end-line="90" selection-end-column="58" />
+            <state relative-caret-position="432">
+              <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1470514312089" expanded="true" signature="997:1009" ph="Photos" />
+                <marker date="1470514312089" expanded="true" signature="1403:1415" ph="remove" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhotoValidator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/validators/PhotoValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="31" column="119" selection-start-line="31" selection-start-column="119" selection-end-line="31" selection-end-column="119" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TalismanService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanService.java">
+      <file leaf-file-name="TalismanPhotoController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanPhotoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#TalismanService#0" expanded="false" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-17">
+              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="talismanMember.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/talismanMember.html">
+      <file leaf-file-name="TalismanPhotoEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanPhotoEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1468602359244" expanded="true" signature="720:731" ph="Name" />
-                <marker date="1468602359244" expanded="true" signature="1027:1039" ph="Phone" />
-                <marker date="1468602359244" expanded="true" signature="1342:1354" ph="Story" />
-                <marker date="1468602359244" expanded="true" signature="1675:1687" ph="Photo" />
-                <marker date="1468602359244" expanded="true" signature="1947:1960" ph="Submit" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="talisman.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/talisman.html">
+      <file leaf-file-name="MemberValidator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/validators/MemberValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="36" column="106" selection-start-line="36" selection-start-column="106" selection-end-line="36" selection-end-column="106" />
+            <state relative-caret-position="360">
+              <caret line="28" column="78" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/photo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#2;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#3;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#4;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1469824231580" expanded="true" signature="653:667" ph="Story:" />
-                <marker date="1469824231580" expanded="true" signature="954:968" ph="Phone:" />
-                <marker date="1469824231580" expanded="true" signature="1247:1261" ph="E-mail:" />
-                <marker date="1469824231580" expanded="true" signature="1540:1554" ph="Skype:" />
-                <marker date="1469824231580" expanded="true" signature="1833:1849" ph="Address:" />
-                <marker date="1469824231580" expanded="true" signature="2123:2136" ph="Submit" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-              <folding>
-                <marker date="1469824320124" expanded="true" signature="681:695" ph="History of the band" />
-                <marker date="1469824320124" expanded="true" signature="745:758" ph="Edit" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/contacts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-              <folding>
-                <marker date="1469824309728" expanded="true" signature="684:701" ph="Contacts" />
-                <marker date="1469824309728" expanded="true" signature="751:764" ph="Edit" />
+                <marker date="1470516249079" expanded="true" signature="816:827" ph="Title:" />
+                <marker date="1470516249079" expanded="true" signature="1112:1123" ph="Photo:" />
+                <marker date="1470516249079" expanded="true" signature="1400:1411" ph="Select event:" />
+                <marker date="1470516249079" expanded="true" signature="1782:1795" ph="Submit" />
               </folding>
             </state>
           </provider>
@@ -207,13 +186,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/validators/MemberValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/validators/UserValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanPhoto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanPhotoEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanEntityController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/talismanMember.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/validators/PhotoValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/exceptionHandlers/GlobalHandler.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/errorPages/404.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/detailedEvent.html" />
@@ -245,19 +222,21 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanEventService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanPhotoController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/JpaConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/photos.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/photo.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/repositories/TalismanRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/FrontController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanEntity.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages_ua.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/talisman.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/contacts.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/about.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/photos.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/validators/MemberValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages_ua.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/photo.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/validators/PhotoValidator.java" />
       </list>
     </option>
   </component>
@@ -467,6 +446,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="validators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TalismanApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TalismanApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="talisman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -563,8 +572,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1197,11 +1206,13 @@
       <workItem from="1469724177396" duration="2814000" />
       <workItem from="1469733560333" duration="23000" />
       <workItem from="1469807018443" duration="11157000" />
+      <workItem from="1469824646215" duration="5000" />
+      <workItem from="1470501770514" duration="6238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="428620000" />
+    <option name="totallyTimeSpent" value="434863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -1263,34 +1274,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/repositories/CommentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/services/CommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/services/CustomSocialUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/services/CustomUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/services/SocialSignInAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -1384,28 +1367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/photos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/photo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1469304976638" expanded="true" signature="816:827" ph="Title:" />
-            <marker date="1469304976638" expanded="true" signature="1112:1123" ph="Photo:" />
-            <marker date="1469304976638" expanded="true" signature="1302:1313" ph="Select event:" />
-            <marker date="1469304976638" expanded="true" signature="1586:1599" ph="Submit" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanMemberEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1435,29 +1396,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanPhotoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/validators/PhotoValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/repositories/TalismanUserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1465,9 +1407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="84" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1487,7 +1426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1495,7 +1433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1508,15 +1445,18 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
+        <state relative-caret-position="1278">
           <caret line="90" column="58" selection-start-line="90" selection-start-column="58" selection-end-line="90" selection-end-column="58" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2181#2182#0" expanded="false" />
+            <element signature="e#2211#2212#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1524,7 +1464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-347">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1532,7 +1471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1540,7 +1478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="13" column="47" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1553,15 +1490,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a2e1a6f5/b86675ee-b43f-49b5-ae21-d6c22c08ad8d/test.talisman_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1585,39 +1521,18 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/services/TalismanService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="216">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;class#TalismanService#0" expanded="false" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_ua.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1631,7 +1546,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/talismanMember.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="378">
           <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1647,7 +1562,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/talisman.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
+        <state relative-caret-position="648">
           <caret line="36" column="106" selection-start-line="36" selection-start-column="106" selection-end-line="36" selection-end-column="106" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1656,12 +1571,6 @@
             <element signature="n#style#0;n#p#0;n#div#2;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#3;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#4;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1469824231580" expanded="true" signature="653:667" ph="Story:" />
-            <marker date="1469824231580" expanded="true" signature="954:968" ph="Phone:" />
-            <marker date="1469824231580" expanded="true" signature="1247:1261" ph="E-mail:" />
-            <marker date="1469824231580" expanded="true" signature="1540:1554" ph="Skype:" />
-            <marker date="1469824231580" expanded="true" signature="1833:1849" ph="Address:" />
-            <marker date="1469824231580" expanded="true" signature="2123:2136" ph="Submit" />
           </folding>
         </state>
       </provider>
@@ -1670,16 +1579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="643">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <marker date="1468942644597" expanded="true" signature="781:792" ph="order by title" />
-            <marker date="1468942644597" expanded="true" signature="903:913" ph="order by date" />
-            <marker date="1468942644597" expanded="true" signature="983:994" ph="MAIN EVENTS LIST" />
-            <marker date="1468942644597" expanded="true" signature="1547:1560" ph="comment" />
-            <marker date="1468942644597" expanded="true" signature="1789:1799" ph="edit" />
-            <marker date="1468942644597" expanded="true" signature="2027:2039" ph="remove" />
-            <marker date="1468942644597" expanded="true" signature="2702:2713" ph="views" />
-            <marker date="1468942644597" expanded="true" signature="2923:2937" ph="comments" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1687,10 +1586,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <marker date="1469824309728" expanded="true" signature="684:701" ph="Contacts" />
-            <marker date="1469824309728" expanded="true" signature="751:764" ph="Edit" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1699,8 +1595,103 @@
         <state relative-caret-position="216">
           <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding>
-            <marker date="1469824320124" expanded="true" signature="681:695" ph="History of the band" />
-            <marker date="1469824320124" expanded="true" signature="745:758" ph="Edit" />
+            <marker date="1469824639491" expanded="true" signature="681:695" ph="History of the band" />
+            <marker date="1469824639491" expanded="true" signature="745:758" ph="Edit" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/ServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/TalismanApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/photos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1470514312089" expanded="true" signature="997:1009" ph="Photos" />
+            <marker date="1470514312089" expanded="true" signature="1403:1415" ph="remove" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/validators/MemberValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="78" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_ua.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/entities/TalismanPhotoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/TalismanPhotoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/validators/PhotoValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="31" column="119" selection-start-line="31" selection-start-column="119" selection-end-line="31" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/photo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1470516249079" expanded="true" signature="816:827" ph="Title:" />
+            <marker date="1470516249079" expanded="true" signature="1112:1123" ph="Photo:" />
+            <marker date="1470516249079" expanded="true" signature="1400:1411" ph="Select event:" />
+            <marker date="1470516249079" expanded="true" signature="1782:1795" ph="Submit" />
           </folding>
         </state>
       </provider>
