@@ -50,4 +50,8 @@ public class CustomUserDetailsService implements UserDetailsService {
         user.setPassword(encodedPass);
         talismanUserRepository.save(user);
     }
+
+    public List<TalismanUser> getAll() {
+        return talismanUserRepository.findAll();
+    }
 }

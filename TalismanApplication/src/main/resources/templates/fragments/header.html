@@ -17,6 +17,7 @@
                 <li th:class="${menu}=='about' ? 'active'"><a href="#" th:href="@{/about/}" th:text="#{menu.about}">About</a></li>
                 <li th:class="${menu}=='photos' ? 'active'"><a href="#" th:href="@{/photos/}" th:text="#{menu.photos}">Photos</a></li>
                 <li th:class="${menu}=='contacts' ? 'active'"><a href="#" th:href="@{/contacts/}" th:text="#{menu.contacts}">Contacts</a></li>
+                <li th:class="${menu}=='users' ? 'active'" sec:authorize="hasRole('ROLE_ADMIN')"><a href="#" th:href="@{/user/}" th:text="#{menu.users}">Users</a> </li>
             </ul>
             <a href="#" th:href="@{'?language=ua'}"><img th:src="@{/images/Ukraine-icon.png}"/></a>
             <a href="#" th:href="@{'?language=en'}"><img th:src="@{/images/GreatBritain-icon.png}"/></a>

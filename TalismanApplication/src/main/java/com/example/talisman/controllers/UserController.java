@@ -4,6 +4,7 @@ import com.example.talisman.entities.TalismanUser;
 import com.example.talisman.services.CustomUserDetailsService;
 import com.example.talisman.validators.UserValidator;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.Banner;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -21,6 +22,13 @@ public class UserController {
 
     @Autowired
     CustomUserDetailsService userDetailsService;
+
+    @RequestMapping("/")
+    public String getUsers(Model model) {
+        model.addAttribute("menu", "users");
+        model.addAttribute("users", userDetailsService.getAll());
+        return "users";
+    }
 
     @RequestMapping("/add")
     public String signUp(Model model){
