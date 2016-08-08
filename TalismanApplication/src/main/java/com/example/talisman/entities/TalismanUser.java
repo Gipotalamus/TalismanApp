@@ -1,6 +1,7 @@
 package com.example.talisman.entities;
 
 import javax.persistence.*;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -17,8 +18,29 @@ public class TalismanUser {
     @OneToMany(mappedBy="user", cascade = CascadeType.REMOVE)
     private List<Comment> comments;
 
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date visit;
+
+    private boolean online;
+
     @Enumerated(EnumType.STRING)
     private Role role = Role.ROLE_ANONYMOUS;
+
+    public boolean isOnline() {
+        return online;
+    }
+
+    public void setOnline(boolean online) {
+        this.online = online;
+    }
+
+    public Date getVisit() {
+        return visit;
+    }
+
+    public void setVisit(Date visit) {
+        this.visit = visit;
+    }
 
     public String getName() {
         return name;

@@ -13,12 +13,16 @@
         <tr>
             <th style="text-align:center">User</th>
             <th style="text-align:center">Role</th>
+            <th style="text-align: center">Last visit</th>
+            <th style="text-align: center">Comments</th>
         </tr>
         <tr th:each="user : ${users}">
             <td>
                 <a href="members.html" th:text="${user.name}" th:href="@{/user/} + ${user.name}"></a>
             </td>
-            <td style="text-align: justify" th:text="${user.role}"></td>
+            <td style="text-align: justify" th:text="${user.role}">ROLE</td>
+            <td style="text-align: center" th:text="${user.visit}">STATUS</td>
+            <td style="text-align: center" th:text="${user.comments}">Comments</td>
         </tr>
     </table>
 </div>

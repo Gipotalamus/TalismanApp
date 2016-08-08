@@ -6,10 +6,17 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.Authentication;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
+import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
 import org.springframework.social.security.SpringSocialConfigurer;
 
 import javax.inject.Inject;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 
 /**
  * Created by мир on 14.04.2016.
@@ -25,6 +32,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
         return new BCryptPasswordEncoder();
     }
 
+    @Bean
+    AuthenticationSuccessHandler talismanSuccessHandler() { return new TalismanLoginSuccessHandler();}
+
     @Override
     protected void configure(HttpSecurity http) throws Exception {
 
@@ -36,7 +46,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
                 .antMatchers("/**").permitAll()
                 .anyRequest().authenticated()
                 .and()
-                .formLogin().loginPage("/login").defaultSuccessUrl("/").failureUrl("/login?err").permitAll()
+                .formLogin().loginPage("/login").defaultSuccessUrl("/").failureUrl("/login?err").successHandler(talismanSuccessHandler()).permitAll()
                 .and()
                 .logout().logoutUrl("/logout").logoutSuccessUrl("/").permitAll()
                 .and()

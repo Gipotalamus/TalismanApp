@@ -51,6 +51,10 @@ public class CustomUserDetailsService implements UserDetailsService {
         talismanUserRepository.save(user);
     }
 
+    public void saveWithoutEncodingPass(TalismanUser user){
+        talismanUserRepository.save(user);
+    }
+
     public List<TalismanUser> getAll() {
         return talismanUserRepository.findAll();
     }

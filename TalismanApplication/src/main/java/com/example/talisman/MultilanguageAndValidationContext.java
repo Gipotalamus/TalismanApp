@@ -5,11 +5,15 @@ package com.example.talisman;
 import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer;
 import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
 import org.springframework.boot.context.embedded.ErrorPage;
+import org.springframework.boot.context.embedded.ServletListenerRegistrationBean;
+import org.springframework.context.ApplicationListener;
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ReloadableResourceBundleMessageSource;
 import org.springframework.http.HttpStatus;
+import org.springframework.security.core.session.SessionDestroyedEvent;
+import org.springframework.security.web.session.HttpSessionEventPublisher;
 import org.springframework.validation.Validator;
 import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 import org.springframework.web.multipart.MultipartResolver;
@@ -59,6 +63,16 @@ public class MultilanguageAndValidationContext extends WebMvcConfigurerAdapter {
                 container.addErrorPages(ep404, ep403);
             }
         };
+    }
+
+    @Bean
+    ApplicationListener<SessionDestroyedEvent> applicationListener() {
+        return new SessionListener();
+    }
+
+    @Bean
+    public ServletListenerRegistrationBean<HttpSessionEventPublisher> httpSessionEventPublisher() {
+        return new ServletListenerRegistrationBean<HttpSessionEventPublisher>(new HttpSessionEventPublisher());
     }
 
     @Override
