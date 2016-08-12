@@ -9,7 +9,7 @@
 <body th:style="'background: url(\'' + @{/images/} + #{about.background} +'\') no-repeat; background-size: 100%'">
 <!--Menu-->
 <div th:include="fragments/header :: header">Default header</div>
-<div class="container" style="max-width: 40%; background-color: lightsteelblue">
+<div class="container">
     <div>   
         <h3 align="center" th:text="#{talisman.about}"></h3>
         <a href="start.html" th:title="#{talisman.edit}" sec:authorize="hasRole('ROLE_ADMIN')" th:href="@{/edit}">
