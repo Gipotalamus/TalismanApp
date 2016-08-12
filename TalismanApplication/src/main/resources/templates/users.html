@@ -8,21 +8,29 @@
 </head>
 <body th:background="@{/images/} + #{members.background}">
 <div th:include="fragments/header :: header">Default header</div>
-<div class="container" style="max-width: 40%; background-color: lightsteelblue">
-    <table style="margin-top: 15px; text-align: center;" class="table table">
+<div class="container">
+    <table id="users-table" class="table table">
         <tr>
-            <th style="text-align:center">User</th>
-            <th style="text-align:center">Role</th>
-            <th style="text-align: center">Last visit</th>
-            <th style="text-align: center">Comments</th>
+            <th>User</th>
+            <th>Role</th>
+            <th>Last visit</th>
+            <th>Comments</th>
+            <th></th>
         </tr>
         <tr th:each="user : ${users}">
             <td>
                 <a href="members.html" th:text="${user.name}" th:href="@{/user/} + ${user.name}"></a>
             </td>
-            <td style="text-align: justify" th:text="${user.role}">ROLE</td>
-            <td style="text-align: center" th:text="${user.visit}">STATUS</td>
-            <td style="text-align: center" th:text="${user.comments}">Comments</td>
+            <td th:text="${user.role}">ROLE</td>
+            <td th:style="${user.online} ? 'color : #04B404'" th:text="${user.online ? 'online' : #dates.format(user.visit, 'yyyy-MM-dd  hh:mm:ss')}">
+                STATUS
+            </td>
+            <td th:text="${#lists.size(user.comments)}">Comments</td>
+            <td>
+                <a th:if="${!user.online}" href="some.html" th:title="#{event.remove}" th:href="@{/user/remove/} + ${user.name}">
+                    <span class="glyphicon glyphicon-remove"></span>
+                </a>
+            </td>
         </tr>
     </table>
 </div>

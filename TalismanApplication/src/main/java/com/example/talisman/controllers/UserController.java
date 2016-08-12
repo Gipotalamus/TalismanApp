@@ -48,4 +48,6 @@ public class UserController {
         userDetailsService.save(talismanUser);
         return "redirect:/";
     }
+
+
 }

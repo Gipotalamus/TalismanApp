@@ -8,20 +8,20 @@
 </head>
 <body th:background="@{/images/} + #{members.background}">
 <div th:include="fragments/header :: header">Default header</div>
-<div class="container" style="max-width: 40%; background-color: lightsteelblue">
-    <table style="margin-top: 15px; text-align: center;" class="table table">
+<div class="container">
+    <table class="table table" id="members-table">
         <tr>
-            <th style="text-align:center">Band member</th>
-            <th style="text-align:center">Short info</th>
-            <th style="text-align:center">Photo</th>
+            <th>Band member</th>
+            <th>Short info</th>
+            <th>Photo</th>
         </tr>
         <tr th:each="member : ${members}">
             <td>
                 <a href="members.html" th:text="${member.name}" th:href="@{/members/} + ${member.id}"></a>
             </td>
-            <td style="text-align: justify" th:text="${member.story}"></td>
+            <td th:text="${member.story}"></td>
             <td>
-                <img style="max-width: 80px; height: auto" th:src="@{__${member.photo}__}"/>
+                <img class="members-img" th:src="@{__${member.photo}__}"/>
             </td>
         </tr>
     </table>

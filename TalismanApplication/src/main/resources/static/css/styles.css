@@ -1,0 +1,30 @@
+th {
+    text-align: center;
+}
+
+#users-table td {
+    text-align: center;
+}
+
+#members-table {
+    margin-top: 15px;
+}
+
+#members-table td{
+    text-align: center;
+}
+
+.members-img {
+    max-width: 80px;
+    height: auto
+}
+
+.container {
+    max-width: 40%;
+    background-color: lightsteelblue;
+    margin-top: 0;
+}
+
+.navbar-inverse {
+    margin-bottom: 0;
+}

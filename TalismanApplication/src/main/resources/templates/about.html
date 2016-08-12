@@ -9,7 +9,7 @@
 <body th:style="'background: url(\'' + @{/images/} + #{about.background} +'\') no-repeat; background-size: 100%'">
 <!--Menu-->
 <div th:include="fragments/header :: header">Default header</div>
-<div class="container" style="max-width: 40%; background-color: lightsteelblue">
+<div class="container">
     <a href="start.html" th:title="#{talisman.edit}" th:href="@{/talisman/edit/}">
         <span class="glyphicon glyphicon-edit"></span>
     </a>
