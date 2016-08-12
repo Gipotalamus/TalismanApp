@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe1dbb5-4855-4407-8210-2ef123b81c2a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/SecurityConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/import.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/import.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/members.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/users.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/users.html" />
     </list>
     <ignored path="TalismanApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,17 +39,17 @@
             <state relative-caret-position="198">
               <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding>
-                <marker date="1470944113711" expanded="true" signature="1293:1305" ph="remove" />
+                <marker date="1471035063400" expanded="true" signature="1293:1305" ph="remove" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            <state relative-caret-position="180">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -65,13 +58,9 @@
       <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="395">
               <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1285#1286#0" expanded="false" />
-                <element signature="e#1335#1336#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="import.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="import.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/import.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+            <state relative-caret-position="72">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -195,11 +184,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/TalismanLoginSuccessHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/controllers/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/talisman/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/import.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/users.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/members.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/styles.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/about.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/import.html" />
       </list>
     </option>
   </component>
@@ -1333,12 +1322,12 @@
       <workItem from="1470934777942" duration="3083000" />
       <workItem from="1470942448489" duration="2022000" />
       <workItem from="1471023712759" duration="103000" />
-      <workItem from="1471034417435" duration="125000" />
+      <workItem from="1471034417435" duration="719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="445108000" />
+    <option name="totallyTimeSpent" value="445702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -1692,34 +1681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1285#1286#0" expanded="false" />
-            <element signature="e#1335#1336#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/SessionListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1736,16 +1697,16 @@
           <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#form#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1470601606447" expanded="true" signature="451:461" ph="Talisman band" />
-            <marker date="1470601606447" expanded="true" signature="670:680" ph="Stuff" />
-            <marker date="1470601606447" expanded="true" signature="801:811" ph="About" />
-            <marker date="1470601606447" expanded="true" signature="934:945" ph="Photos" />
-            <marker date="1470601606447" expanded="true" signature="1073:1086" ph="Contacts" />
-            <marker date="1470601606447" expanded="true" signature="1247:1257" ph="User managment" />
-            <marker date="1470601606447" expanded="true" signature="1587:1598" ph="logged as:" />
-            <marker date="1470601606447" expanded="true" signature="2322:2334" ph="Sign up" />
-            <marker date="1470601606447" expanded="true" signature="2614:2625" ph="logout" />
-            <marker date="1470601606447" expanded="true" signature="2855:2865" ph="login" />
+            <marker date="1471035063400" expanded="true" signature="451:461" ph="Talisman band" />
+            <marker date="1471035063400" expanded="true" signature="670:680" ph="Stuff" />
+            <marker date="1471035063400" expanded="true" signature="801:811" ph="About" />
+            <marker date="1471035063400" expanded="true" signature="934:945" ph="Photos" />
+            <marker date="1471035063400" expanded="true" signature="1073:1086" ph="Contacts" />
+            <marker date="1471035063400" expanded="true" signature="1247:1257" ph="User managment" />
+            <marker date="1471035063400" expanded="true" signature="1587:1598" ph="logged as:" />
+            <marker date="1471035063400" expanded="true" signature="2322:2334" ph="Sign up" />
+            <marker date="1471035063400" expanded="true" signature="2614:2625" ph="logout" />
+            <marker date="1471035063400" expanded="true" signature="2855:2865" ph="login" />
           </folding>
         </state>
       </provider>
@@ -1763,7 +1724,7 @@
         <state relative-caret-position="198">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
-            <marker date="1470944113711" expanded="true" signature="1293:1305" ph="remove" />
+            <marker date="1471035063400" expanded="true" signature="1293:1305" ph="remove" />
           </folding>
         </state>
       </provider>
@@ -1804,8 +1765,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/import.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        <state relative-caret-position="72">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/talisman/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding />
         </state>
       </provider>
