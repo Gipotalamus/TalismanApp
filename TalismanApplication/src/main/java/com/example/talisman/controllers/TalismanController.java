@@ -1,7 +1,9 @@
 package com.example.talisman.controllers;
 
+import com.example.talisman.entities.TalismanEntity;
 import com.example.talisman.entities.TalismanEventEntity;
 import com.example.talisman.services.TalismanEventService;
+import com.example.talisman.services.TalismanService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
@@ -12,6 +14,7 @@ import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -21,10 +24,15 @@ import javax.servlet.http.HttpSession;
  */
 @Controller
 @RequestMapping("/")
-public class FrontController {
+public class TalismanController {
 
     @Autowired
     TalismanEventService talismanEventService;
+
+    @Autowired
+    TalismanService talismanService;
+
+
 
     @Value("${pagination.count}")
     private int entitiesPerPageCount;
@@ -56,14 +64,38 @@ public class FrontController {
 
     @RequestMapping("/about")
     public String about(Model model) {
-        model.addAttribute("menu", "about");
+        TalismanEntity talismanEntity = talismanService.get();
+        if (talismanEntity == null) {
+            talismanEntity = new TalismanEntity();
+        }
+        model.addAttribute("talisman", talismanEntity);
         return "about";
     }
 
     @RequestMapping("/contacts")
     public String contacts(Model model) {
-        model.addAttribute("menu", "contacts");
+        TalismanEntity talismanEntity = talismanService.get();
+        if (talismanEntity == null) {
+            talismanEntity = new TalismanEntity();
+        }
+        model.addAttribute("talisman", talismanEntity);
         return "contacts";
+    }
+
+    @RequestMapping("/edit")
+    public String edit(Model model) {
+        TalismanEntity talismanEntity = talismanService.get();
+        if (talismanEntity == null) {
+            talismanEntity = new TalismanEntity();
+        }
+        model.addAttribute("talismanEntity",talismanEntity);
+        return "talisman";
+    }
+
+    @RequestMapping(value = "/edit", method = RequestMethod.POST)
+    public String save(TalismanEntity talismanEntity) {
+        talismanService.saveOrUpdate(talismanEntity);
+        return "redirect:/";
     }
 
 }

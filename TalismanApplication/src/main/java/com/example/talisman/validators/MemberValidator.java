@@ -27,7 +27,6 @@ public class MemberValidator implements Validator {
         if (!matcher1.matches()) errors.rejectValue("phone", "validation.member.phone");
         String photo = member.getPhoto();
         String ext = photo.split("\\.").length < 2?"" : photo.split("\\.")[1];
-        System.out.println(ext);
         Pattern pattern2 = Pattern.compile("(jpg)|(png)|(jpeg)|(bmp)");
         Matcher matcher2 = pattern2.matcher(ext);
         if (photo.trim().equals("")) errors.rejectValue("photo", "validation.member.photo.empty");

@@ -5,6 +5,16 @@
     <div th:include="fragments/import :: bootstrap"></div>
     <meta charset="UTF-8"/>
     <title>Photos</title>
+    <script type="text/javascript">
+        function show_image(src, width, height, alt) {
+            var img = document.createElement("img");
+            img.src = src;
+            img.width = width;
+            img.height = height;
+            img.alt = alt;
+            document.body.appendChild(img);
+        }
+    </script>
 </head>
 <body th:style="'background: url(\'' + @{/images/} + #{photos.background} +'\') no-repeat; background-size: 100%'" >
 <!--Menu-->
@@ -12,7 +22,7 @@
 <div class="container" style="max-width: 40%; background-color: lightsteelblue">
     <h2 align="center" th:text="#{photo.header}">Photos</h2>
     <span style="display: inline-block; position: relative" th:each="photo : ${photos}">
-        <img style="position:relative; max-height: 100px; width: auto; margin: 5px 5px" src="source" th:src="${photo.photo}"/>
+        <img th:onclick="'show_image(\'' + ${photo.photo} + '\', 100, 100, \'ass\')'" style="position:relative; max-height: 100px; width: auto; margin: 5px 5px" src="source" th:src="${photo.photo}"/>
         <a style="position: absolute; top: 5px; right: 5px" href="start.html" th:title="#{photo.remove}"
            th:href="@{/photos/remove/} + ${photo.id}">
             <span class="glyphicon glyphicon-remove"></span>

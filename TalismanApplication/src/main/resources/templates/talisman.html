@@ -1,0 +1,44 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:include="fragments/import :: bootstrap"></div>
+    <meta charset="UTF-8"/>
+    <title>Talisman Member</title>
+</head>
+<body>
+<div th:include="fragments/header :: header">Default header</div>
+<div class="container" style="max-width: 40%; background-color: seashell">
+    <form th:object="${talismanEntity}" th:action="@{/edit}" method="POST">
+        <input type="hidden" th:field="*{id}"/>
+        <div>
+            <label for="story" th:text="#{talisman.story}">Story:</label>
+            <textarea rows="5" cols="80" class="form-control" th:field="*{story}" id="story"/>
+            <p style="color: red" th:if="${#fields.hasErrors('story')}" th:errors="*{story}">Story</p>
+        </div>
+        <div>
+            <label for="phone" th:text="#{talisman.phone}">Phone:</label>
+            <input type="number" class="form-control" th:field="*{phone}" id="phone"/>
+            <p style="color: red" th:if="${#fields.hasErrors('phone')}" th:errors="*{phone}">Phone</p>
+        </div>
+        <div>
+            <label for="email" th:text="#{talisman.email}">E-mail:</label>
+            <input type="text" class="form-control" th:field="*{email}" id="email"/>
+            <p style="color: red" th:if="${#fields.hasErrors('email')}" th:errors="*{email}">E-mail</p>
+        </div>
+        <div>
+            <label for="skype" th:text="#{talisman.skype}">Skype:</label>
+            <input type="text" class="form-control" th:field="*{skype}" id="skype"/>
+            <p style="color: red" th:if="${#fields.hasErrors('skype')}" th:errors="*{skype}">Skype</p>
+        </div>
+        <div>
+            <label for="address" th:text="#{talisman.address}">Address:</label>
+            <input type="text" class="form-control" th:field="*{address}" id="address"/>
+            <p style="color: red" th:if="${#fields.hasErrors('address')}" th:errors="*{address}">Address</p>
+        </div>
+        <input type="submit" th:value="#{button.submit}" value="Submit"/>
+    </form>
+</div>
+
+</body>
+</html>
