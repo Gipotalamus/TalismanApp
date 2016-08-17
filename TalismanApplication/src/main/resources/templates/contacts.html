@@ -11,15 +11,16 @@
 <div th:include="fragments/header :: header">Default header</div>
 <div class="container" style="max-width: 40%; background-color: lightsteelblue">
     <div>
-        <h3 align="center" th:text="#{talisman.contacts}"></h3>
-        <a href="start.html" th:title="#{talisman.edit}" sec:authorize="hasRole('ROLE_ADMIN')" th:href="@{/edit}">
+        <h3 style="width: 100%; text-align: center; display: inline-block" th:text="#{talisman.contacts}"></h3>
+        <a style="float: right;" href="start.html" th:title="#{talisman.edit}" sec:authorize="hasRole('ROLE_ADMIN')" th:href="@{/edit}">
             <span class="glyphicon glyphicon-edit"></span>
         </a>
     </div>
-
-    <span th:text="${talisman.phone}">Phone here</span>
+    <label for="phone" th:text="|Phone: |"></label>
+    <span th:text="${talisman.phone}" id="phone">Phone here</span>
     <br/>
-    <span th:text="${talisman.skype}">Skype here</span>
+    <label for="skype" th:text="|Skype: |"></label>
+    <span th:text="${talisman.skype}" id="skype">Skype here</span>
 </div>
 
 </body>

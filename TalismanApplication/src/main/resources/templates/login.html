@@ -8,9 +8,8 @@
     <meta charset="UTF-8"/>
     <title>Members</title>
 </head>
-<body>
-
-<div style="max-width: 40%; margin: 0 auto; margin-top: 50px;">
+<body th:background="@{/images/} + #{start.background}">
+<div style="max-width: 40%; padding: 20px; margin: 0 auto; margin-top: 50px; background-color: gainsboro">
     <form class="form-horizontal" role="form" th:action="@{/login}" method="post">
         <div class="form-group">
             <label class="control-label col-sm-2" for="name" th:text="#{form.login.name}">Email:</label>
@@ -31,7 +30,7 @@
                 </div>
             </div>
         </div>
-        <div class="form-group">
+        <div class="form-group" style="margin-bottom: 0px">
             <div class="col-sm-offset-2 col-sm-10">
                 <input type="submit" th:value="#{button.submit}" class="btn btn-default"/>
             </div>

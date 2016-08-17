@@ -11,7 +11,12 @@ import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ReloadableResourceBundleMessageSource;
+import org.springframework.core.convert.Property;
 import org.springframework.http.HttpStatus;
+import org.springframework.mail.MailMessage;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.security.core.session.SessionDestroyedEvent;
 import org.springframework.security.web.session.HttpSessionEventPublisher;
 import org.springframework.validation.Validator;
@@ -25,6 +30,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
 import org.springframework.web.servlet.i18n.SessionLocaleResolver;
 import java.util.Locale;
+import java.util.Properties;
 
 /**
  * Created by мир on 29.03.2016.
@@ -32,11 +38,21 @@ import java.util.Locale;
 @Configuration
 public class MultilanguageAndValidationContext extends WebMvcConfigurerAdapter {
 
+    /* File Upload */
     @Bean
     public MultipartResolver multipartResolver() {
         CommonsMultipartResolver multipartResolver = new CommonsMultipartResolver();
         multipartResolver.setMaxUploadSize(500000000);
         return multipartResolver;
+    }
+
+    /* Mail */
+    @Bean
+    public SimpleMailMessage templateMessage() {
+        SimpleMailMessage message = new SimpleMailMessage();
+        message.setFrom("talisman@i.ua");
+        message.setSubject("gurt talisman");
+        return message;
     }
 
     @Bean

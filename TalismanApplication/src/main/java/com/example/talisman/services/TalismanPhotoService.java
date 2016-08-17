@@ -42,7 +42,6 @@ public class TalismanPhotoService {
 
     public void delete(int id) {
         String filePath = "/home/gipotalamus/Idea/" + find(id).getPhoto();
-        System.out.println(filePath);
         File file = new File(filePath);
         file.delete();
         photoRepository.delete(id);

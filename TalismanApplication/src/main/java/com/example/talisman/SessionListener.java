@@ -34,7 +34,6 @@ public class SessionListener implements ApplicationListener<SessionDestroyedEven
             talismanUser.setVisit(Date.from(date.atZone(ZoneId.systemDefault()).toInstant()));
             talismanUser.setOnline(false);
             userDetailsService.saveWithoutEncodingPass(talismanUser);
-            System.out.println("saved");
         }
     }
 

@@ -23,7 +23,7 @@
     <h2 align="center" th:text="#{photo.header}">Photos</h2>
     <span style="display: inline-block; position: relative" th:each="photo : ${photos}">
         <img th:onclick="'show_image(\'' + ${photo.photo} + '\', 100, 100, \'ass\')'" style="position:relative; max-height: 100px; width: auto; margin: 5px 5px" src="source" th:src="${photo.photo}"/>
-        <a style="position: absolute; top: 5px; right: 5px" href="start.html" th:title="#{photo.remove}"
+        <a style="position: absolute; top: 5px; right: 5px" sec:authorize="hasRole('ROLE_ADMIN')" href="start.html" th:title="#{photo.remove}"
            th:href="@{/photos/remove/} + ${photo.id}">
             <span class="glyphicon glyphicon-remove"></span>
         </a>

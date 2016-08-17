@@ -6,10 +6,10 @@
     <meta charset="UTF-8"/>
     <title>Detailed Event</title>
 </head>
-<body background="/images/img_background.jpg">
+<body th:background="@{/images/} + #{start.background}">
 <div th:include="fragments/header :: header">Default header</div>
 <div class="container" style="max-width: 40%; background-color: lightsteelblue">
-    <div>
+    <div style="margin-top: 20px">
         <div align="center">
             <span style="font-size: medium; font-weight: bold;" th:text="${event.title}"></span>
         </div>

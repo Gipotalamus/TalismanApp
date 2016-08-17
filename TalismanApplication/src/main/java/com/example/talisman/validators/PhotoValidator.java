@@ -25,7 +25,7 @@ public class PhotoValidator implements Validator {
             errors.rejectValue("title", "validation.photo.title");
         }
         String ext = photoEntity.getPhoto().split("\\.").length < 2?"" : photoEntity.getPhoto().split("\\.")[1];
-        Pattern pattern = Pattern.compile("(jpg)|(png)|(jpeg)|(bmp)");
+        Pattern pattern = Pattern.compile("(jpg)|(png)|(jpeg)|(bmp)|(JPG)");
         Matcher matcher = pattern.matcher(ext);
         if (photoEntity.getPhoto().trim().equals("")) errors.rejectValue("photo", "validation.member.photo.empty");
         if (!matcher.matches()) errors.rejectValue("photo", "validation.member.photo.format");

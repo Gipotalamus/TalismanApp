@@ -6,7 +6,7 @@
     <meta charset="UTF-8"/>
     <title>Talisman Event</title>
 </head>
-<body>
+<body th:background="@{/images/} + #{start.background}">
 <div th:include="fragments/header :: header">Default header</div>
 <div class="container" style="max-width: 40%; background-color: seashell">
     <form th:object="${talismanEventEntity}" th:action="@{/talismanEvents/saveOrUpdate}" method="post">

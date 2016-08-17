@@ -40,8 +40,8 @@ public class TalismanPhotoController {
 
         Page<TalismanPhotoEntity> page = talismanPhotoService.findAll(pageable);
         int pagesCount = page.getTotalPages();
+        if (pagesCount==0) pagesCount = 1;
         int currentPage = pageable.getPageNumber();
-        System.out.println(pagesCount);
         model.addAttribute("photos", page);
         model.addAttribute("menu", "photos");
         model.addAttribute("pagesCount", pagesCount);
@@ -65,7 +65,6 @@ public class TalismanPhotoController {
         talismanPhotoEntity.setPhoto(photo);
         validator.validate(talismanPhotoEntity, result);
         if (!result.hasErrors()) {
-            System.out.println("no errors");
             String filePath = "/home/gipotalamus/Idea/" + photo;
             try {
                 file.transferTo(new File(filePath));
@@ -75,8 +74,6 @@ public class TalismanPhotoController {
             talismanPhotoService.addPhoto(talismanPhotoEntity);
             return "redirect:/photos/";
         } else {
-
-            System.out.println(result.toString());
             return "photo";
         }
 

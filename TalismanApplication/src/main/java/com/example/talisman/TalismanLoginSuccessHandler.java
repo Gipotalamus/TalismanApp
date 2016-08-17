@@ -24,8 +24,6 @@ public class TalismanLoginSuccessHandler implements AuthenticationSuccessHandler
     public void onAuthenticationSuccess(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Authentication authentication) throws IOException, ServletException {
         User user = (User) authentication.getPrincipal();
         TalismanUser talismanUser = userDetailsService.findOneByName(user.getUsername());
-        System.out.println(talismanUser.getName());
-        System.out.println(talismanUser.getPassword());
         talismanUser.setOnline(true);
         userDetailsService.saveWithoutEncodingPass(talismanUser);
         String URL = httpServletRequest.getContextPath() + "/";

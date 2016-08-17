@@ -38,9 +38,7 @@ public class TalismanEventController {
 
     @RequestMapping(path = "/saveOrUpdate", method = RequestMethod.POST)
     public String saveOrUpdate(@Valid TalismanEventEntity talismanEventEntity, BindingResult bindingResult) {
-        System.out.println(talismanEventEntity.getTitle());
         if (bindingResult.hasErrors()) {
-            System.out.println(bindingResult.getAllErrors());
             return "talismanEvent";
         }
         talismanEventService.saveOrUpdate(talismanEventEntity);

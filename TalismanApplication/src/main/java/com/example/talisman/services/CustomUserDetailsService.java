@@ -11,7 +11,11 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -46,6 +50,8 @@ public class CustomUserDetailsService implements UserDetailsService {
 
     public void save(TalismanUser user) {
         String pass = user.getPassword();
+        LocalDateTime date = LocalDateTime.now();
+        user.setVisit(Date.from(date.atZone(ZoneId.systemDefault()).toInstant()));
         String encodedPass = passwordEncoder.encode(pass);
         user.setPassword(encodedPass);
         talismanUserRepository.save(user);
@@ -57,5 +63,15 @@ public class CustomUserDetailsService implements UserDetailsService {
 
     public List<TalismanUser> getAll() {
         return talismanUserRepository.findAll();
+    }
+
+    public void setUsersOffline() {
+        List<TalismanUser> onlineList = talismanUserRepository.findByOnline(true);
+        onlineList.forEach(talismanUser -> talismanUser.setOnline(false));
+        talismanUserRepository.save(onlineList);
+    }
+
+    public void remove(String name) {
+        talismanUserRepository.deleteByName(name);
     }
 }
