@@ -15,13 +15,17 @@ public class TalismanUser {
 
     private String password;
 
-    @OneToMany(mappedBy="user", cascade = CascadeType.REMOVE)
+    private String email;
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.REMOVE)
     private List<Comment> comments;
 
     @Temporal(TemporalType.TIMESTAMP)
     private Date visit;
 
     private boolean online;
+
+    private String confirm;
 
     @Enumerated(EnumType.STRING)
     private Role role = Role.ROLE_ANONYMOUS;
@@ -40,6 +44,14 @@ public class TalismanUser {
 
     public void setVisit(Date visit) {
         this.visit = visit;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getName() {
@@ -62,12 +74,25 @@ public class TalismanUser {
         return role.toString();
     }
 
+    public String getConfirm() {
+        return confirm;
+    }
+
+    public void setConfirm(String confirm) {
+        this.confirm = confirm;
+    }
+
     public void setRole(String r) {
 
         switch (r) {
-            case "ROLE_ADMIN": this.role = Role.ROLE_ADMIN; break;
-            case "ROLE_USER": this.role = Role.ROLE_USER; break;
-            default: this.role = Role.ROLE_ANONYMOUS;
+            case "ROLE_ADMIN":
+                this.role = Role.ROLE_ADMIN;
+                break;
+            case "ROLE_USER":
+                this.role = Role.ROLE_USER;
+                break;
+            default:
+                this.role = Role.ROLE_ANONYMOUS;
         }
 
     }

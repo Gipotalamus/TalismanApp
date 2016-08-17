@@ -16,6 +16,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.annotation.PreDestroy;
+import javax.servlet.http.HttpServletRequest;
+import javax.ws.rs.QueryParam;
 
 /**
  * Created by gipotalamus on 25.05.16.
@@ -28,12 +30,6 @@ public class UserController {
 
     @Autowired
     CustomUserDetailsService userDetailsService;
-
-    @Autowired
-    JavaMailSender mailSender;
-
-    @Autowired
-    SimpleMailMessage mailMessage;
 
     @RequestMapping("/")
     public String getUsers(Model model) {
@@ -51,23 +47,21 @@ public class UserController {
 
 
     @RequestMapping(path = "/add", method = RequestMethod.POST)
-    public String addUser(TalismanUser talismanUser, BindingResult result, Model model){
+    public String addUser(TalismanUser talismanUser, BindingResult result, Model model, HttpServletRequest request){
         userValidator.validate(talismanUser, result);
         if (result.hasErrors()) {
             return "signUp";
         }
-        mailMessage.setTo("hectop23@ukr.net");
-        String confirmURL = "http://...";
-        mailMessage.setText("Please, confirm your registration! /n Follow link below: " + confirmURL);
-        mailSender.send(mailMessage);
-        talismanUser.setRole("ROLE_USER");
-        userDetailsService.save(talismanUser);
+        String path = request.getRequestURL().toString().replace("/add", "");
+        System.out.println(path);
+        userDetailsService.addUser(talismanUser, path);
         return "redirect:/";
     }
 
-    @RequestMapping("")
-    public String confirmRegistration() {
-
+    @RequestMapping("/confirm")
+    public String confirmRegistration(@QueryParam("code") String code) {
+        System.out.println("controller confirm");
+        userDetailsService.checkCode(code);
         return "redirect:/";
     }
 

@@ -2,6 +2,7 @@ package com.example.talisman;
 
 
 
+import com.example.talisman.genconfirm.ConfirmCodeGenerator;
 import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer;
 import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
 import org.springframework.boot.context.embedded.ErrorPage;
@@ -53,6 +54,12 @@ public class MultilanguageAndValidationContext extends WebMvcConfigurerAdapter {
         message.setFrom("talisman@i.ua");
         message.setSubject("gurt talisman");
         return message;
+    }
+
+    /* Confirm code generator */
+    @Bean
+    public ConfirmCodeGenerator confirmCodeGenerator() {
+        return new ConfirmCodeGenerator();
     }
 
     @Bean

@@ -40,7 +40,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 
         http
                 .authorizeRequests()
-                .antMatchers("/talismanEvents/view/*", "/webjars/**", "/user/add").permitAll()
+                .antMatchers("/talismanEvents/view/*", "/webjars/**", "/user/add", "/user/confirm*").permitAll()
                 .antMatchers("/talismanEvents/comment/**", "/members/", "/photos/").authenticated()
                 .antMatchers("/talismanEvents/**", "/members/**", "/comments/**", "/photos/**", "/user/*").hasRole("ADMIN")
                 .and()

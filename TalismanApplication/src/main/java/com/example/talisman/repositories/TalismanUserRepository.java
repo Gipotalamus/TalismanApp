@@ -12,10 +12,13 @@ import java.util.List;
  */
 @RepositoryRestResource(exported = false)
 public interface TalismanUserRepository extends JpaRepository<TalismanUser, Integer> {
-    TalismanUser findOneByName(String name);
+
+    TalismanUser findOneByNameAndConfirm(String name, String confirm);
 
     List<TalismanUser> findByOnline(boolean online);
 
     @Transactional
     void deleteByName(String name);
+
+    TalismanUser findOneByConfirm(String confirm);
 }

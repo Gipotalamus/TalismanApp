@@ -1,8 +1,12 @@
 package com.example.talisman.services;
 
 import com.example.talisman.entities.TalismanUser;
+import com.example.talisman.genconfirm.ConfirmCodeGenerator;
 import com.example.talisman.repositories.TalismanUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.mail.MailException;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
@@ -29,6 +33,15 @@ public class CustomUserDetailsService implements UserDetailsService {
     @Autowired
     BCryptPasswordEncoder passwordEncoder;
 
+    @Autowired
+    JavaMailSender mailSender;
+
+    @Autowired
+    SimpleMailMessage mailMessage;
+
+    @Autowired
+    ConfirmCodeGenerator codeGenerator;
+
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
 
@@ -37,7 +50,7 @@ public class CustomUserDetailsService implements UserDetailsService {
     }
 
     public TalismanUser findOneByName(String name) {
-        return talismanUserRepository.findOneByName(name);
+        return talismanUserRepository.findOneByNameAndConfirm(name, "confirmed");
     }
 
 
@@ -73,5 +86,28 @@ public class CustomUserDetailsService implements UserDetailsService {
 
     public void remove(String name) {
         talismanUserRepository.deleteByName(name);
+    }
+
+    public void checkCode(String code) {
+        TalismanUser user = talismanUserRepository.findOneByConfirm(code);
+        if (user != null) {
+            user.setConfirm("confirmed");
+            talismanUserRepository.save(user);
+        }
+    }
+
+    public void addUser(TalismanUser talismanUser, String path) {
+        mailMessage.setTo(talismanUser.getEmail());
+        String code = codeGenerator.generateCode(talismanUser.getName());
+        String confirmURL = path + "/confirm?code=" + code;
+        mailMessage.setText("Please, confirm your registration! Follow link below: " + confirmURL);
+        try {
+            mailSender.send(mailMessage);
+        } catch (MailException e) {
+            e.printStackTrace();
+        }
+        talismanUser.setRole("ROLE_USER");
+        talismanUser.setConfirm(code);
+        save(talismanUser);
     }
 }
