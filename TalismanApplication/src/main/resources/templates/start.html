@@ -3,6 +3,7 @@
       xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
 <head>
     <div th:include="fragments/import :: bootstrap"></div>
+    <script th:src="@{/javascript/start.js}" src="/some.js"></script>
     <meta charset="UTF-8"/>
     <title>Start Page</title>
 </head>
@@ -39,9 +40,9 @@
                 <a href="start.html" th:title="#{event.edit}" th:href="@{/talismanEvents/edit/} + ${event.id}" sec:authorize="hasRole('ROLE_ADMIN')">
                     <span class="glyphicon glyphicon-edit"></span>
                 </a>
-                <a href="start.html" th:title="#{event.remove}" th:href="@{/talismanEvents/remove/} + ${event.id}" sec:authorize="hasRole('ROLE_ADMIN')">
-                    <span class="glyphicon glyphicon-remove"></span>
-                </a>
+                <!--<a href="start.html" th:title="#{event.remove}" th:href="@{/talismanEvents/remove/} + ${event.id}" >-->
+                    <span th:id="'remove' + ${event.id}" class="glyphicon glyphicon-remove" sec:authorize="hasRole('ROLE_ADMIN')"></span>
+                <!--</a>-->
             </div>
         </div>
         <div style="display: inline-block; width: 100%">
